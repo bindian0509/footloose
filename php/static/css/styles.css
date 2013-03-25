@@ -107,30 +107,30 @@ table { border-collapse: collapse; border-spacing: 0; }/* tables still need 'cel
 /*----------------------------------------------*/
 @font-face {
     font-family: 'JournalRegular';
-    src: url('css/journal-webfont.eot?') format('eot'),
-         url('css/journal-webfont.woff') format('woff'),
-         url('css/journal-webfont.ttf') format('truetype'),
-         url('css/journal-webfont.svg#webfontGhV9TBys') format('svg');
+    src: url('/static/css/journal-webfont.eot?') format('eot'),
+         url('/static/css/journal-webfont.woff') format('woff'),
+         url('/static/css/journal-webfont.ttf') format('truetype'),
+         url('/static/css/journal-webfont.svg#webfontGhV9TBys') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MelbourneBold';
-    src: url('css/melbourne_bold-webfont.eot?') format('eot'),
-         url('css/melbourne_bold-webfont.woff') format('woff'),
-         url('css/melbourne_bold-webfont.ttf') format('truetype'),
-         url('css/melbourne_bold-webfont.svg#webfontzCPiyXMS') format('svg');
+    src: url('/static/css/melbourne_bold-webfont.eot?') format('eot'),
+         url('/static/css/melbourne_bold-webfont.woff') format('woff'),
+         url('/static/css/melbourne_bold-webfont.ttf') format('truetype'),
+         url('/static/css/melbourne_bold-webfont.svg#webfontzCPiyXMS') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MelbourneRegular';
-    src: url('css/melbourne_reg-webfont.eot?') format('eot'),
-         url('css/melbourne_reg-webfont.woff') format('woff'),
-         url('css/melbourne_reg-webfont.ttf') format('truetype'),
-         url('css/melbourne_reg-webfont.svg#webfontQzFjdvCi') format('svg');
+    src: url('/static/css/melbourne_reg-webfont.eot?') format('eot'),
+         url('/static/css/melbourne_reg-webfont.woff') format('woff'),
+         url('/static/css/melbourne_reg-webfont.ttf') format('truetype'),
+         url('/static/css/melbourne_reg-webfont.svg#webfontQzFjdvCi') format('svg');
     font-weight: normal;
     font-style: normal;
 }
