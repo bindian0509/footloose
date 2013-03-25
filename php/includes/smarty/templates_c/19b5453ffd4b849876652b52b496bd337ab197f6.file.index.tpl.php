@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.5, created on 2013-03-25 03:47:17
+<?php /* Smarty version Smarty-3.0.5, created on 2013-03-25 05:09:13
          compiled from "/home/bharat/public_html/footloose/php/includes/views/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:37952231451502b35867972-21433905%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:174784568351503e6918dce6-41859431%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '19b5453ffd4b849876652b52b496bd337ab197f6' => 
     array (
       0 => '/home/bharat/public_html/footloose/php/includes/views/index.tpl',
-      1 => 1364208433,
+      1 => 1364210285,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '37952231451502b35867972-21433905',
+  'nocache_hash' => '174784568351503e6918dce6-41859431',
   'function' => 
   array (
   ),
@@ -64,11 +64,11 @@ $_smarty_tpl->decodeProperties(array (
 <div class="head">
 <div class="container">
 
-	<div class="logo"><a href="index.html"><img src="/static/images/logo.png" alt="" width="240" height="56" border="0" /></a></div>
+	<div class="logo"><a href="index.php"><img src="/static/images/logo.png" alt="" width="240" height="56" border="0" /></a></div>
     
     <div class="head_right">
     	<div class="icon-top icon-phone">Call us directly: <span>1-800-643-4300</span></div>
-        <div class="icon-top icon-map">Via Ludovisi 39, Rome, <a href="location.html"><span>View on Map</span></a></div>
+        <div class="icon-top icon-map">Via Ludovisi 39, Rome, <a href="location.php"><span>View on Map</span></a></div>
     </div>
 </div>
 </div>
@@ -78,35 +78,35 @@ $_smarty_tpl->decodeProperties(array (
 	<div class="container">
         
 	        <ul class="topmenu">
-				<li class="first current-menu-item"><a href="index.html">Home</a></li>
-              	<li><a href="about.html">About us</a></li>
-				<li><a href="rooms.html">Rooms</a></li>
-                <li><a href="rates.html">Rates</a></li>
-                <li class="parent"><a href="location.html">Location</a>
+				<li class="first current-menu-item"><a href="index.php">Home</a></li>
+              	<li><a href="about.php">About us</a></li>
+				<li><a href="rooms.php">Rooms</a></li>
+                <li><a href="rates.php">Rates</a></li>
+                <li class="parent"><a href="location.php">Location</a>
                 	<ul class="sub-menu">
                         <li class="first"><a href="#">Berna, Switzerland</a></li>
                         <li><a href="#">London, UK</a></li>
                         <li class="parent"><a href="#">Paris, France <span class="submenu-arrow">&rsaquo;</span></a>
                         	<ul class="sub-menu">
-                            	<li class="first"><a href="location-one.html">Rue de Strasbourg</a></li>
-                            	<li><a href="location-one.html">Bld. Champs-Elysee</a></li>
-                                <li><a href="location-one.html">Place Vandome</a></li>
-                                <li class="last"><a href="location-one.html">Rue Tour Eiffel</a></li>
+                            	<li class="first"><a href="location-one.php">Rue de Strasbourg</a></li>
+                            	<li><a href="location-one.php">Bld. Champs-Elysee</a></li>
+                                <li><a href="location-one.php">Place Vandome</a></li>
+                                <li class="last"><a href="location-one.php">Rue Tour Eiffel</a></li>
                              </ul>
                         </li>                        
                         <li><a href="#">Stockholm, Sweden</a></li>
                         <li class="last"><a href="#">Rome, Italy </a></li>
                     </ul>
                 </li>
-                <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="news.html">News &amp; Promos</a></li>
-				<li class="parent"><a href="shortcodes.html">Shortcodes</a>
+                <li><a href="reservations.php">Reservations</a></li>
+                <li><a href="news.php">News &amp; Promos</a></li>
+				<li class="parent"><a href="shortcodes.php">Shortcodes</a>
                 	<ul class="sub-menu">
-                        <li class="first"><a href="shortcodes.html">HTML</a></li>
-                        <li class="last"><a href="columns.html">Columns Layout</a></li>
+                        <li class="first"><a href="shortcodes.php">HTML</a></li>
+                        <li class="last"><a href="columns.php">Columns Layout</a></li>
                     </ul>
                 </li>
-                <li class="last"><a href="contacts.html">Contact</a></li>
+                <li class="last"><a href="contacts.php">Contact</a></li>
        	  </ul>
         </div>
 </div>        
@@ -148,17 +148,17 @@ $_smarty_tpl->decodeProperties(array (
 	<!-- baners top -->
     <div class="baners_top">
         <div class="baner-item">
-        	<div class="baner-img"><a href="reservations.html"><img src="/static/images/baner_top_1.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="reservations.php"><img src="/static/images/baner_top_1.jpg" alt="" width="230" height="73" border="0" /></a></div>
             <h2><span>Make a</span> Reservation</h2>
         </div>
         
         <div class="baner-item">
-        	<div class="baner-img"><a href="rooms.html"><img src="/static/images/baner_top_2.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="rooms.php"><img src="/static/images/baner_top_2.jpg" alt="" width="230" height="73" border="0" /></a></div>
         	<h2><span>View the</span> Rooms</h2>
         </div>
         
         <div class="baner-item">
-        	<div class="baner-img"><a href="news.html"><img src="/static/images/baner_top_3.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="news.php"><img src="/static/images/baner_top_3.jpg" alt="" width="230" height="73" border="0" /></a></div>
             <h2><span>Latest</span> Promos</h2>
         </div>
     </div>    
@@ -170,7 +170,7 @@ $_smarty_tpl->decodeProperties(array (
     
     	<div class="grid_12">
         <div class="news-item">
-            	<h2><a href="news-details.html">Welcome to our Hotel</a></h2>
+            	<h2><a href="news-details.php">Welcome to our Hotel</a></h2>
                 <div  class="news-text">
                     <img src="/static/images/temp_img_2.jpg" width="140" height="93" alt="" class="alignleft" />
                     <p>Enjoy a striking destination inspired by the extraordinary landscape, melding the offerings of thrilling in outdoor recreation and renowned spa treatments, with the hot &amp; unsurpassed beauty of the City of Seven Hills. </p>
@@ -180,7 +180,7 @@ $_smarty_tpl->decodeProperties(array (
         
         <div class="grid_12">
             <div class="news-item">
-            	<h2><a href="news-details.html">BED &amp; BREAKFAST</a></h2>
+            	<h2><a href="news-details.php">BED &amp; BREAKFAST</a></h2>
                 <div  class="news-text">
                     <img src="/static/images/temp_img_1.jpg" width="140" height="93" alt="" class="alignleft" />
                     <p>Indulge in our delicious cuisine infused with organic ingredients and prepared by expert chefs. We are providing a wide array of fine dining establishments offering stunning views from every turn in a relaxing and cosy atmosphere.</p>
@@ -224,13 +224,13 @@ $_smarty_tpl->decodeProperties(array (
         
         	<div class="botmenu">
             	<ul>
-                    <li class="first current-menu-item"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="rooms.html">Rooms</a></li>
-                    <li><a href="rates.html">Rates</a></li>
-                    <li><a href="location.html">Location</a></li>
-                    <li><a href="reservations.html">Reservations</a></li>
-                    <li class="last"><a href="contacts.html">Contact</a></li>
+                    <li class="first current-menu-item"><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About us</a></li>
+                    <li><a href="rooms.php">Rooms</a></li>
+                    <li><a href="rates.php">Rates</a></li>
+                    <li><a href="location.php">Location</a></li>
+                    <li><a href="reservations.php">Reservations</a></li>
+                    <li class="last"><a href="contacts.php">Contact</a></li>
        	  		</ul>
             </div>
             

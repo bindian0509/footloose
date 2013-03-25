@@ -1,3 +1,22 @@
+<?php /* Smarty version Smarty-3.0.5, created on 2013-03-25 05:09:42
+         compiled from "/home/bharat/public_html/footloose/php/includes/views/news.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:127728355651503e86c01a76-16593026%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '72dbfb589b1b296e6a443e9432600fd11797790b' => 
+    array (
+      0 => '/home/bharat/public_html/footloose/php/includes/views/news.tpl',
+      1 => 1364213311,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '127728355651503e86c01a76-16593026',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

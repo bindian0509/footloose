@@ -1,3 +1,22 @@
+<?php /* Smarty version Smarty-3.0.5, created on 2013-03-25 05:09:44
+         compiled from "/home/bharat/public_html/footloose/php/includes/views/shortcodes.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:176721826951503e88e7b8b1-81724028%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'ec33f41897c562f4d73d2c4d773f439309c084a0' => 
+    array (
+      0 => '/home/bharat/public_html/footloose/php/includes/views/shortcodes.tpl',
+      1 => 1364213287,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '176721826951503e88e7b8b1-81724028',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

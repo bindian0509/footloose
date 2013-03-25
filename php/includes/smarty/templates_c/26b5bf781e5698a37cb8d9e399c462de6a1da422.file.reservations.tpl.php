@@ -1,8 +1,27 @@
+<?php /* Smarty version Smarty-3.0.5, created on 2013-03-25 05:09:38
+         compiled from "/home/bharat/public_html/footloose/php/includes/views/reservations.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:195458721951503e82702ae6-56884613%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '26b5bf781e5698a37cb8d9e399c462de6a1da422' => 
+    array (
+      0 => '/home/bharat/public_html/footloose/php/includes/views/reservations.tpl',
+      1 => 1364213298,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '195458721951503e82702ae6-56884613',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Rooms | Welcome Inn</title>
+<title>Reservations | Welcome Inn</title>
 <meta name="author" content="ThemeFuse" />
 <meta name="description" content="A short description of your company" />
 <meta name="keywords" content="Some keywords that best describes your businee" />
@@ -12,26 +31,47 @@
 <script type="text/javascript">
 	$(function(){
 		$(".widget_recent_entries li:even").addClass("even");
-
-		$.each($(".room-item"), function(i, d) {			
-			var count = $(d).find(".description .services-included ul li").length;
-			$(d).children().children().children().children("li:last").addClass("noborder");
-			$(d).children(".image").children("a:first").removeClass("hide");
-			if (count%2 == 0) {				
-				$(d).children().children().children().children().eq(-2).addClass("noborder");
-			}
-		})
-
+		$(".table-price tbody tr:odd").addClass("odd");
 	});
 </script>
 
-<link rel="stylesheet" href="/static/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-<script src="/static/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){
-			$(".room-item .image a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:2000, autoplay_slideshow: true});
-		});
+<link rel="stylesheet" type="text/css" href="/static/css/wi-theme/jquery-ui-1.8.9.custom.css" />
+<link rel="stylesheet" type="text/css" href="/static/css/ui.selectmenu.css" />
+<script type="text/javascript" language="javascript" src="/static/js/jquery-ui-1.8.9.custom.min.js"></script>
+<script type="text/javascript" language="javascript" src="/static/js/ui.selectmenu.js"></script>
+<script type="text/javascript" language="javascript" src="/static/js/styled.selectmenu.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+$(function(){
+  var bookedDays = ["2011-2-22","2011-2-23","2011-3-8","2011-3-9","2011-3-10"];
+  
+  function assignCalendar(id){
+    $('<div class="calendar" />')
+      .insertAfter( $(id) )
+      .datepicker({ 
+        dateFormat: 'dd-mm-yy', 
+        minDate: new Date(), 
+        maxDate: '+1y', 
+        altField: id, 
+        firstDay: 1,
+        showOtherMonths: true,
+        dayNamesMin: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+        beforeShowDay: isAvailable })
+      .prev().hide();
+  }
+  
+  function isAvailable(date){
+    var dateAsString = date.getFullYear().toString() + "-" + (date.getMonth()+1).toString() + "-" + date.getDate();
+    var result = $.inArray( dateAsString, bookedDays ) ==-1 ? [true] : [false];
+    return result
+  }
+
+  assignCalendar('#date_in_input');
+  assignCalendar('#date_out_input');
+});
+// ]]>
 </script>
+<script type="text/javascript" language="javascript" src="/static/js/reservations.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/static/css/custom.css" />
 </head>
@@ -56,7 +96,7 @@
 	        <ul class="topmenu">
 				<li class="first"><a href="index.php">Home</a></li>
               	<li><a href="about.php">About us</a></li>
-				<li class="current-menu-item"><a href="rooms.php">Rooms</a></li>
+				<li><a href="rooms.php">Rooms</a></li>
                 <li><a href="rates.php">Rates</a></li>
                 <li class="parent"><a href="location.php">Location</a>
                 	<ul class="sub-menu">
@@ -74,7 +114,7 @@
                         <li class="last"><a href="#">Rome, Italy </a></li>
                     </ul>
                 </li>
-                <li><a href="reservations.php">Reservations</a></li>
+                <li class="current-menu-item"><a href="reservations.php">Reservations</a></li>
                 <li><a href="news.php">News &amp; Promos</a></li>
 				<li class="parent"><a href="shortcodes.php">Shortcodes</a>
                 	<ul class="sub-menu">
@@ -97,8 +137,8 @@
 <div class="container">
 
 	<div class="header-title-image">
-    	<div class="image"><img src="/static/images/header/header_3.jpg" width="708" height="124" alt="" /></div>
-    	<h1><span>Take a look at our  </span> Guest Rooms</h1>
+    	<div class="image"><img src="/static/images/header/header_7.jpg" width="708" height="124" alt="" /></div>
+    	<h1><span>Make a </span> Reservation</h1>
     </div>
     
     <!-- middle content -->
@@ -108,101 +148,91 @@
     	<div class="grid_17 suffix_1">
        	  	<div class="text">
             
-                <div class="room-item">
-                	<h2><a href="#">Double Room Standard</a></h2>
-                    
-                	<div class="image">
-						<img src="/static/images/temp_room_1.jpg" width="234" height="112" alt="" /><br />
-						<a href="/static/images/temp_slide_1.jpg" class="hide link-zoom" rel="prettyPhoto[room_1]">View photo gallery</a>
-						<a href="/static/images/temp_slide_2.jpg" class="hide" rel="prettyPhoto[room_1]">Photo 2</a>
-						<a href="/static/images/temp_slide_3.jpg" class="hide" rel="prettyPhoto[room_1]">Photo 3</a>
-					</div>
-                    
-                    <div class="description">
-                    
-                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud included amenities:</p>
-                    	<div class="services-included">
-                        	<ul>
-                                <li class="service-1"><span>Air Conditioning</span></li>
-                                <li class="service-2"><span>Room Service</span></li>
-                                <li class="service-3"><span>Mini-Bar</span></li>
-                                <li class="service-4"><span>Built-in Safe</span></li>
-                                <li class="service-5"><span>Free internet WiFi</span></li>
-                                <li class="service-6"><span>TV (45 channels)</span></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
+                <h2>SEND REQUEST FOR RESERVATION:</h2>
                 
-                <div class="room-item">
-                	<h2><a href="#">Double Room Superior</a></h2>
-                    
-                	<div class="image">
-						<img src="/static/images/temp_room_2.jpg" width="234" height="112" alt="" /><br />
-						<a href="/static/images/temp_img_3.jpg" class="hide link-zoom" rel="prettyPhoto[room_2]">View photo gallery</a>
-						<a href="/static/images/temp_img_4.jpg" class="hide" rel="prettyPhoto[room_2]">Photo 2</a>
-					</div>
-                    
-                    <div class="description">
-                    
-                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud included amenities:</p>
-                    	<div class="services-included">
-                        	<ul>
-                                <li class="service-1"><span>Air Conditioning</span></li>
-
-                                <li class="service-3"><span>Mini-Bar</span></li>
-                                <li class="service-4"><span>Built-in Safe</span></li>
-                                <li class="service-5"><span>Free internet WiFi</span></li>
-                                <li class="service-6"><span>TV (45 channels)</span></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
+                <form action="" method="post" class="reservationForm" id="reservationForm">
                 
-                <div class="room-item">
-                	<h2><a href="#">SINGLE Junior Suite</a></h2>
-                    
-                	<div class="image">
-						<img src="/static/images/temp_room_3.jpg" width="234" height="112" alt="" /><br />
-						<a href="/static/images/temp_slide_3.jpg" class="hide link-zoom" rel="prettyPhoto[room_3]">View photo gallery</a>
-						<a href="/static/images/temp_slide_1.jpg" class="hide" rel="prettyPhoto[room_3]">Photo 2</a>
-						<a href="/static/images/temp_slide_2.jpg" class="hide" rel="prettyPhoto[room_3]">Photo 3</a>
-					</div>
-                    
-                    <div class="description">
-                    
-                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud included amenities:</p>
-                    	<div class="services-included">
-                        	<ul>
-                                <li class="service-1"><span>Air Conditioning</span></li>
-                                <li class="service-2"><span>Room Service</span></li>
-                                <li class="service-3"><span>Mini-Bar</span></li>
-                                <li class="service-5"><span>Free internet WiFi</span></li>
-                                <li class="service-6"><span>TV (45 channels)</span></li>
-                            </ul>
+                	<!-- column 1 -->
+                    <div class="column_3">
+                        <div class="row field_select">
+							<label>Choose room type:</label><br />
+                            <select class="select_styled" name="reserv_type" id="reserv_type">
+                                <option value="Single_Room">Single Room</option>
+                                <option value="Double_Room">Double Room</option>
+                                <option value="Family_Suite">Family Suite</option>
+                            </select>
+						</div>
+                        
+                        <div class="row field_select">
+							<div class="split_1">
+                            <label>No. of adults:</label><br />
+                            <select class="select_styled" name="reserv_no_adults" id="reserv_no_adults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            </div>
+                            
+                            <div class="split_2">
+                            <label>No. of children:</label><br />
+                            <select class="select_styled" name="reserv_no_children" id="reserv_no_children">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            </div>
                             <div class="clear"></div>
-                        </div>
+						</div>
+                        
+                        <div class="row field_text">
+                            <label>Your email address:</label><br />
+                            
+                            <input name="email" value="" id="email" class="inputtext required" size="40" type="text" />
+						</div>
                     </div>
+                    <!--/ column 1 -->
+                    
+                    <!-- column 2 -->
+                <div class="column_3">
+                    	<div class="row field_date">
+                          <label>Choose <strong>check-in</strong> date:</label><br />
+                            <div id="date_in"></div>
+                            <input name="date_in_input" value="" id="date_in_input" type="hidden" />
+						</div>
+                  </div>
+                    <!--/ column 2 -->
+                    
+                    <!-- column 3 -->
+                <div class="column_3 omega">
+                    	<div class="row field_date">
+                          <label>Choose <strong>check-out</strong> date:</label><br />
+                            <div id="date_out"></div>
+                          <input name="date_out_input" value="" id="date_out_input" type="hidden" />
+						</div>
+                  </div>
+                    <!--/ column 3 -->
+                    
                     <div class="clear"></div>
-                </div>
+                    
+                    <div class="notice_table"><span class="square-green">your selection</span> <span class="square-disable">not available</span></div>
+                    
+                    <div class="field_submit">
+                        <input type="submit" value="Send Now" id="send" class="btn-send" />
+                        <p class="sending"><img id="sending" src="/static/images/ajax-loader.gif"></p>
+                        <p class="notice">Please note that this is not an actual reservation, but only a request for one. <strong>We will contact you for a confirmation shortly after. Thank you!</strong></p>
+                        <p class="notice textconfirm">Thank you for contacting us.<br />We will get back to you as soon as possible.</p>
+                        <p class="notice texterror">Due to an unknown error, your form was not submitted.<br /> Please resubmit it or try later.</p>
+                    </div>
+                </form>
 			</div>
         </div>
         <!--/ content -->
         <!-- sidebar -->
         <div class="grid_6">
             
-			<div class="box box_black">
-				<div class="inner">
-            	<h3 class="bordered"><span>Make a</span> Reservation</h3>
-                <p><span class="text-green"><a href="reservations.php">Send us a message</a></span> with your desired room type, arrival date and number of nights you'd like to reserve, and we'll contact you in no time.</p>
-                </div>
-            	<a href="reservations.php"><img src="/static/images/calendar_230.jpg" width="230" height="73" alt="" border="0" /></a>			</div>
-            
-            <div class="box box_gray widget-container widget_recent_entries">
+			<div class="box box_gray widget-container widget_recent_entries">
 				<h3><span>Latest</span> News &amp; Promos</h3>
 				<ul>
                     <li><a href="news-details.php"><img src="/static/images/temp_thumb_1.jpg" alt="" width="50" height="50" border="0" class="thumbnail" /></a> <a href="news-details.php">NEW jumbo breakfast in bed included for all guests!</a> <div class="date">Feb 23, 2011</div> </li>
