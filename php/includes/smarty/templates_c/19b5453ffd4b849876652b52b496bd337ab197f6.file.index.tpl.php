@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.5, created on 2013-03-25 03:39:42
+<?php /* Smarty version Smarty-3.0.5, created on 2013-03-25 03:47:17
          compiled from "/home/bharat/public_html/footloose/php/includes/views/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12396315975150296e486144-83410554%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:37952231451502b35867972-21433905%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '19b5453ffd4b849876652b52b496bd337ab197f6' => 
     array (
       0 => '/home/bharat/public_html/footloose/php/includes/views/index.tpl',
-      1 => 1364207979,
+      1 => 1364208433,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12396315975150296e486144-83410554',
+  'nocache_hash' => '37952231451502b35867972-21433905',
   'function' => 
   array (
   ),
@@ -26,11 +26,11 @@ $_smarty_tpl->decodeProperties(array (
 <meta name="description" content="A short description of your company" />
 <meta name="keywords" content="Some keywords that best describes your businee" />
 
-<link rel="stylesheet" type="text/css" href="/css/style.css" />
-<script type="text/javascript" src="/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
 
-<script type="text/javascript" src="/js/slides.jquery.js"></script>
-<link rel="stylesheet" type="text/css" href="/css/slides.css" />
+<script type="text/javascript" src="/static/js/slides.jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/css/slides.css" />
 <script type="text/javascript">
 		$(function(){
 			$('#slides').slides({
@@ -57,14 +57,14 @@ $_smarty_tpl->decodeProperties(array (
 		});
 </script>
 
-<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+<link rel="stylesheet" type="text/css" href="/static/css/custom.css" />
 </head>
 
 <body>
 <div class="head">
 <div class="container">
 
-	<div class="logo"><a href="index.html"><img src="/images/logo.png" alt="" width="240" height="56" border="0" /></a></div>
+	<div class="logo"><a href="index.html"><img src="/static/images/logo.png" alt="" width="240" height="56" border="0" /></a></div>
     
     <div class="head_right">
     	<div class="icon-top icon-phone">Call us directly: <span>1-800-643-4300</span></div>
@@ -119,19 +119,19 @@ $_smarty_tpl->decodeProperties(array (
         <div id="slides">
 				<div class="slides_container">
 					<div>
-						<a href="#"><img src="/images/temp_slide_1.jpg" width="960" height="379" alt="Enjoy the breath-taking views from our Hotel" /></a>
+						<a href="#"><img src="/static/images/temp_slide_1.jpg" width="960" height="379" alt="Enjoy the breath-taking views from our Hotel" /></a>
 						<div class="caption"><p>Enjoy the breath-taking views from our Hotel</p></div>
 					</div>
 					<div>
-						<img src="/images/temp_slide_2.jpg" width="960" height="379" alt="Great panaromic mountain view makes the best place to admire nature." />
+						<img src="/static/images/temp_slide_2.jpg" width="960" height="379" alt="Great panaromic mountain view makes the best place to admire nature." />
 						<div class="caption"><p>Great panaromic mountain view makes the best place to admire nature.</p></div>
 					</div>
                     <div>
-						<a href="#"><img src="/images/temp_slide_3.jpg" width="960" height="379" alt="Sea with a very beautiful view to the sea and Sunny Beach Resort." /></a>
+						<a href="#"><img src="/static/images/temp_slide_3.jpg" width="960" height="379" alt="Sea with a very beautiful view to the sea and Sunny Beach Resort." /></a>
 						<div class="caption"><p>Sea with a very beautiful view to the sea and Sunny Beach Resort.</p></div>
 					</div>
                     <div>
-						<a href="#"><img src="/images/temp_slide_4.jpg" width="960" height="379" alt="We offer a choice of comfortable rooms and great rates" /></a>
+						<a href="#"><img src="/static/images/temp_slide_4.jpg" width="960" height="379" alt="We offer a choice of comfortable rooms and great rates" /></a>
 						<div class="caption"><p>We offer a choice of comfortable rooms and great rates</p></div>
 					</div>
 				</div>
@@ -148,17 +148,17 @@ $_smarty_tpl->decodeProperties(array (
 	<!-- baners top -->
     <div class="baners_top">
         <div class="baner-item">
-        	<div class="baner-img"><a href="reservations.html"><img src="/images/baner_top_1.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="reservations.html"><img src="/static/images/baner_top_1.jpg" alt="" width="230" height="73" border="0" /></a></div>
             <h2><span>Make a</span> Reservation</h2>
         </div>
         
         <div class="baner-item">
-        	<div class="baner-img"><a href="rooms.html"><img src="/images/baner_top_2.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="rooms.html"><img src="/static/images/baner_top_2.jpg" alt="" width="230" height="73" border="0" /></a></div>
         	<h2><span>View the</span> Rooms</h2>
         </div>
         
         <div class="baner-item">
-        	<div class="baner-img"><a href="news.html"><img src="/images/baner_top_3.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="news.html"><img src="/static/images/baner_top_3.jpg" alt="" width="230" height="73" border="0" /></a></div>
             <h2><span>Latest</span> Promos</h2>
         </div>
     </div>    
@@ -172,7 +172,7 @@ $_smarty_tpl->decodeProperties(array (
         <div class="news-item">
             	<h2><a href="news-details.html">Welcome to our Hotel</a></h2>
                 <div  class="news-text">
-                    <img src="/images/temp_img_2.jpg" width="140" height="93" alt="" class="alignleft" />
+                    <img src="/static/images/temp_img_2.jpg" width="140" height="93" alt="" class="alignleft" />
                     <p>Enjoy a striking destination inspired by the extraordinary landscape, melding the offerings of thrilling in outdoor recreation and renowned spa treatments, with the hot &amp; unsurpassed beauty of the City of Seven Hills. </p>
                 </div>
 			</div>
@@ -182,7 +182,7 @@ $_smarty_tpl->decodeProperties(array (
             <div class="news-item">
             	<h2><a href="news-details.html">BED &amp; BREAKFAST</a></h2>
                 <div  class="news-text">
-                    <img src="/images/temp_img_1.jpg" width="140" height="93" alt="" class="alignleft" />
+                    <img src="/static/images/temp_img_1.jpg" width="140" height="93" alt="" class="alignleft" />
                     <p>Indulge in our delicious cuisine infused with organic ingredients and prepared by expert chefs. We are providing a wide array of fine dining establishments offering stunning views from every turn in a relaxing and cosy atmosphere.</p>
                 </div>
             </div>
@@ -208,7 +208,7 @@ $_smarty_tpl->decodeProperties(array (
 	 <div class="container_24">
     
     	<div class="grid_3">
-        <img src="/images/logo_footer.png" width="110" height="72" alt="" />
+        <img src="/static/images/logo_footer.png" width="110" height="72" alt="" />
         </div>
         
         <div class="grid_8">
