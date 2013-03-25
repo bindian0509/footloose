@@ -47,30 +47,9 @@
               	<li><a href="about.php">About us</a></li>
 				<li><a href="rooms.php">Rooms</a></li>
                 <li><a href="rates.php">Rates</a></li>
-                <li class="parent"><a href="location.php">Location</a>
-                	<ul class="sub-menu">
-                        <li class="first"><a href="#">Berna, Switzerland</a></li>
-                        <li><a href="#">London, UK</a></li>
-                        <li class="parent"><a href="#"><span class="submenu-arrow">&rsaquo;</span>Paris, France </a>
-                        	<ul class="sub-menu">
-                            	<li class="first"><a href="location-one.php">Rue de Strasbourg</a></li>
-                            	<li><a href="location-one.php">Bld. Champs-Elysee</a></li>
-                                <li><a href="location-one.php">Place Vandome</a></li>
-                                <li class="last"><a href="location-one.php">Rue Tour Eiffel</a></li>
-                             </ul>
-                        </li>                        
-                        <li><a href="#">Stockholm, Sweden</a></li>
-                        <li class="last"><a href="#">Rome, Italy </a></li>
-                    </ul>
-                </li>
+                <li class="parent"><a href="location.php">Location</a></li>
                 <li><a href="reservations.php">Reservations</a></li>
                 <li><a href="news.php">News &amp; Promos</a></li>
-				<li class="parent"><a href="shortcodes.php">Shortcodes</a>
-                	<ul class="sub-menu">
-                        <li class="first"><a href="shortcodes.php">HTML</a></li>
-                        <li class="last"><a href="columns.php">Columns Layout</a></li>
-                    </ul>
-                </li>
                 <li class="last current-menu-item"><a href="contacts.php">Contact</a></li>
        	  </ul>
         </div>

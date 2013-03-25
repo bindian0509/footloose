@@ -57,12 +57,6 @@
                 </li>
                 <li><a href="reservations.php">Reservations</a></li>
                 <li><a href="news.php">News &amp; Promos</a></li>
-				<li class="parent"><a href="shortcodes.php">Shortcodes</a>
-                	<ul class="sub-menu">
-                        <li class="first"><a href="shortcodes.php">HTML</a></li>
-                        <li class="last"><a href="columns.php">Columns Layout</a></li>
-                    </ul>
-                </li>
                 <li class="last"><a href="contacts.php">Contact</a></li>
        	  </ul>
         </div>
@@ -90,8 +84,18 @@
        	  <div class="text">
             
             <h2>Tradition &amp; Experience</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <strong>velit esse cillum dolore</strong> eu fugiat nulla pariatur. </p>
-            <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+
+            <p>We envisage a relationship with our customers based on the principle of internalizing an enriching & rejuvenating dream holiday experience.</p>
+
+            <p>In the process, we pay tribute and celebrate the untamable and free human spirit that binds us all.
+            <strong>Footloose Holidays Pvt. Ltd.’s</strong> inception is the story of people like <strong>you and us</strong> trying to satisfy the adventurer, the optimist, the nature lover in us. We at Footloose are committed to provide you with an awe inspiring holiday experience away from the soul sapping and hustle bustle of the way, life has become today. </p>
+
+            <p>Rishikesh, the “Gateway” to the mighty Himalayan ranges known worldwide as the <strong>rafting and spiritual capital of Incredible India</strong> thus attracting <strong>adventure enthusiasts and yoga lovers</strong> from all over the world, hence becomes the obvious choice for our stepping stone.</p>
+
+            <p>Careful planning, great importance towards customer safety, a sense of gushing enthusiasm and love for nature are the main motifs that drive us. The team of expert instructors and guides are dedicated to provide you an <strong>adrenaline-charged adventure trip</strong> set amidst the lap of nature in Himalayas. Our team is highly passionate and understands the true essence of adventure. The utter enthusiasm of the team and the quality of service will guarantee that you spend a thrilling and safe holiday that will leave everlasting memories in your mind.</p>
+
+            <p>Last but not the least, we @Footloose Holidays Pvt. Ltd understand our moral responsibilities towards nature and society at large, and are devoted towards <strong>nature sustainability and social upliftment.</strong></p> 
             
             <img src="/static/images/temp_img_3.jpg" alt="" width="227" height="151" class="alignleft" />
 			

@@ -39,30 +39,9 @@
               	<li><a href="about.php">About us</a></li>
 				<li><a href="rooms.php">Rooms</a></li>
                 <li><a href="rates.php">Rates</a></li>
-                <li class="current-menu-item current-menu-ancestor parent"><a href="location.php">Location</a>
-                	<ul class="sub-menu">
-                        <li class="first"><a href="#">Berna, Switzerland</a></li>
-                        <li><a href="#">London, UK</a></li>
-                        <li class="current-menu-parent parent"><a href="#"><span class="submenu-arrow">&rsaquo;</span>Paris, France </a>
-                        	<ul class="sub-menu">
-                            	<li class="first"><a href="location-one.php">Rue de Strasbourg</a></li>
-                            	<li><a href="location-one.php">Bld. Champs-Elysee</a></li>
-                                <li><a href="location-one.php">Place Vandome</a></li>
-                                <li class="last"><a href="location-one.php">Rue Tour Eiffel</a></li>
-                             </ul>
-                        </li>                        
-                        <li><a href="#">Stockholm, Sweden</a></li>
-                        <li class="last"><a href="#">Rome, Italy </a></li>
-                    </ul>
-                </li>
+                <li class="current-menu-item current-menu-ancestor parent"><a href="location.php">Location</a></li>
                 <li><a href="reservations.php">Reservations</a></li>
                 <li><a href="news.php">News &amp; Promos</a></li>
-				<li class="parent"><a href="shortcodes.php">Shortcodes</a>
-                	<ul class="sub-menu">
-                        <li class="first"><a href="shortcodes.php">HTML</a></li>
-                        <li class="last"><a href="columns.php">Columns Layout</a></li>
-                    </ul>
-                </li>
                 <li class="last"><a href="contacts.php">Contact</a></li>
        	  </ul>
         </div>
@@ -90,8 +69,9 @@
        	  	<div class="text">
             
                 <h2>WHERE WE ARE LOCATED</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <strong>velit esse cillum dolore</strong> eu fugiat nulla pariatur. </p>
-                <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <p>The Footloose Camp sits beautifully in the lap of nature on the bank of river Heul surrounded by “tresses of Shiva”, the Shivalik ranges. These Shivalik ridges offers a picturesque view   from our camp site. Ours is the only camp in the area which offers multilevel and unobstructed view of these majestic mountains in all four directions.</p>
+
+                <p>The lodging and dinning facilities along with toilets are built on an upper hill portion of our camp while the ground level portion caters all sports and leisure activities. Keeping in mind the relaxation of our customers, there are various sitting and relaxing points at both upper and ground level. At our porch, Peacocks & other Himalayan birds can be frequently seen around our camp at dusk & dawn while you are relaxing or sharing your stories with your friends.</p>
                 
                 
                 <img src="/static/images/temp_map.jpg" width="670" height="229" alt="" />
