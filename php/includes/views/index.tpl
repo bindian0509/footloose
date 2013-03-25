@@ -7,18 +7,18 @@
 <meta name="description" content="A short description of your company" />
 <meta name="keywords" content="Some keywords that best describes your businee" />
 
-<link rel="stylesheet" type="text/css" href="styles.css" />
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<script type="text/javascript" src="/js/jquery.min.js"></script>
 
-<script type="text/javascript" src="js/slides.jquery.js"></script>
-<link rel="stylesheet" type="text/css" href="css/slides.css" />
+<script type="text/javascript" src="/js/slides.jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/slides.css" />
 <script type="text/javascript">
 		$(function(){
 			$('#slides').slides({
 				width: 960,
 				height: 379,
 				preload: true,
-				preloadImage: 'images/loading.gif',
+				preloadImage: '/images/loading.gif',
 				play: 5000,
 				pause: 2500,
 				effect: 'fade, fade',
@@ -38,14 +38,14 @@
 		});
 </script>
 
-<link rel="stylesheet" type="text/css" href="custom.css" />
+<link rel="stylesheet" type="text/css" href="/css/custom.css" />
 </head>
 
 <body>
 <div class="head">
 <div class="container">
 
-	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" width="240" height="56" border="0" /></a></div>
+	<div class="logo"><a href="index.html"><img src="/images/logo.png" alt="" width="240" height="56" border="0" /></a></div>
     
     <div class="head_right">
     	<div class="icon-top icon-phone">Call us directly: <span>1-800-643-4300</span></div>
@@ -100,19 +100,19 @@
         <div id="slides">
 				<div class="slides_container">
 					<div>
-						<a href="#"><img src="images/temp_slide_1.jpg" width="960" height="379" alt="Enjoy the breath-taking views from our Hotel" /></a>
+						<a href="#"><img src="/images/temp_slide_1.jpg" width="960" height="379" alt="Enjoy the breath-taking views from our Hotel" /></a>
 						<div class="caption"><p>Enjoy the breath-taking views from our Hotel</p></div>
 					</div>
 					<div>
-						<img src="images/temp_slide_2.jpg" width="960" height="379" alt="Great panaromic mountain view makes the best place to admire nature." />
+						<img src="/images/temp_slide_2.jpg" width="960" height="379" alt="Great panaromic mountain view makes the best place to admire nature." />
 						<div class="caption"><p>Great panaromic mountain view makes the best place to admire nature.</p></div>
 					</div>
                     <div>
-						<a href="#"><img src="images/temp_slide_3.jpg" width="960" height="379" alt="Sea with a very beautiful view to the sea and Sunny Beach Resort." /></a>
+						<a href="#"><img src="/images/temp_slide_3.jpg" width="960" height="379" alt="Sea with a very beautiful view to the sea and Sunny Beach Resort." /></a>
 						<div class="caption"><p>Sea with a very beautiful view to the sea and Sunny Beach Resort.</p></div>
 					</div>
                     <div>
-						<a href="#"><img src="images/temp_slide_4.jpg" width="960" height="379" alt="We offer a choice of comfortable rooms and great rates" /></a>
+						<a href="#"><img src="/images/temp_slide_4.jpg" width="960" height="379" alt="We offer a choice of comfortable rooms and great rates" /></a>
 						<div class="caption"><p>We offer a choice of comfortable rooms and great rates</p></div>
 					</div>
 				</div>
@@ -129,17 +129,17 @@
 	<!-- baners top -->
     <div class="baners_top">
         <div class="baner-item">
-        	<div class="baner-img"><a href="reservations.html"><img src="images/baner_top_1.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="reservations.html"><img src="/images/baner_top_1.jpg" alt="" width="230" height="73" border="0" /></a></div>
             <h2><span>Make a</span> Reservation</h2>
         </div>
         
         <div class="baner-item">
-        	<div class="baner-img"><a href="rooms.html"><img src="images/baner_top_2.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="rooms.html"><img src="/images/baner_top_2.jpg" alt="" width="230" height="73" border="0" /></a></div>
         	<h2><span>View the</span> Rooms</h2>
         </div>
         
         <div class="baner-item">
-        	<div class="baner-img"><a href="news.html"><img src="images/baner_top_3.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<div class="baner-img"><a href="news.html"><img src="/images/baner_top_3.jpg" alt="" width="230" height="73" border="0" /></a></div>
             <h2><span>Latest</span> Promos</h2>
         </div>
     </div>    
@@ -153,7 +153,7 @@
         <div class="news-item">
             	<h2><a href="news-details.html">Welcome to our Hotel</a></h2>
                 <div  class="news-text">
-                    <img src="images/temp_img_2.jpg" width="140" height="93" alt="" class="alignleft" />
+                    <img src="/images/temp_img_2.jpg" width="140" height="93" alt="" class="alignleft" />
                     <p>Enjoy a striking destination inspired by the extraordinary landscape, melding the offerings of thrilling in outdoor recreation and renowned spa treatments, with the hot &amp; unsurpassed beauty of the City of Seven Hills. </p>
                 </div>
 			</div>
@@ -163,7 +163,7 @@
             <div class="news-item">
             	<h2><a href="news-details.html">BED &amp; BREAKFAST</a></h2>
                 <div  class="news-text">
-                    <img src="images/temp_img_1.jpg" width="140" height="93" alt="" class="alignleft" />
+                    <img src="/images/temp_img_1.jpg" width="140" height="93" alt="" class="alignleft" />
                     <p>Indulge in our delicious cuisine infused with organic ingredients and prepared by expert chefs. We are providing a wide array of fine dining establishments offering stunning views from every turn in a relaxing and cosy atmosphere.</p>
                 </div>
             </div>
@@ -176,7 +176,7 @@
     <div class="newsletter_box newsletter_index">
         <h3>Sign up for Newsletter:</h3>
         <form action="" method="post">
-        	<input type="text" value="Enter your e-mail address" onfocus="if (this.value == 'Enter your e-mail address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter your e-mail address';}" name="" class="inputField" />
+        	<input type="text" value="Enter your e-mail address"  name="" class="inputField" />
 			<input type="submit" value="Submit" class="btn-submit" />
         </form>
         <div class="clear"></div>
@@ -189,7 +189,7 @@
 	 <div class="container_24">
     
     	<div class="grid_3">
-        <img src="images/logo_footer.png" width="110" height="72" alt="" />
+        <img src="/images/logo_footer.png" width="110" height="72" alt="" />
         </div>
         
         <div class="grid_8">
