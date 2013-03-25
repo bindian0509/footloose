@@ -229,7 +229,7 @@ hr{
 	padding-top:10px;}
 
 .divider{
-	background:url(images/divider_line.gif) bottom repeat-x;
+	background:url(../images/divider_line.gif) bottom repeat-x;
 	padding-top:22px}
 
 .clearboth{
@@ -360,7 +360,7 @@ button::-moz-focus-inner {
 	padding: 0;}
 	
 input[type="reset"],input[type="submit"],input[type="button"], button{
-	background:url(images/btn_submit.gif) 0 0 no-repeat #abc742;
+	background:url(../images/btn_submit.gif) 0 0 no-repeat #abc742;
 	border:none;
 	color:#344c01;
 	margin:0;
@@ -384,7 +384,7 @@ button:hover,button:focus{
 /*----------------------------------------------*/
 
 .button_link {
-	background:url(images/buttons_bg.gif) no-repeat  right -32px transparent;
+	background:url(../images/buttons_bg.gif) no-repeat  right -32px transparent;
 	color:#344c01;
 	display:inline-block;
 	margin:5px 0;
@@ -395,7 +395,7 @@ button:hover,button:focus{
 	height:32px}
 
 .button_link span{
-	background:url(images/buttons_bg.gif) no-repeat  left 0 transparent;
+	background:url(../images/buttons_bg.gif) no-repeat  left 0 transparent;
 	display:block;
 	line-height:12px;
 	color:#344c01;
@@ -630,7 +630,7 @@ button:hover,button:focus{
 /* 2. SITE STRUCTURE */
 /*============================================================================================*/
 body {
-	background:url(images/head_bg.jpg) #fff;
+	background:url(../images/head_bg.jpg) #fff;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#595959;
 	font-size:13px;
@@ -642,7 +642,7 @@ body {
 /*----------------------------------------------*/
 
 .head {
-	background:url(images/head_bg_center.jpg) center 0 no-repeat;}
+	background:url(../images/head_bg_center.jpg) center 0 no-repeat;}
 
 .head .container {
 	height:152px;}
@@ -666,10 +666,10 @@ body {
 	text-align:right}
 
 .icon-phone {
-	background:url(images/icon_phone.png) right 5px no-repeat;}
+	background:url(../images/icon_phone.png) right 5px no-repeat;}
 
 .icon-map {
-	background:url(images/icon_map_point.png) right 5px no-repeat;}
+	background:url(../images/icon_map_point.png) right 5px no-repeat;}
 
 .icon-top span, icon-top a {
 	color:#82a62b;
@@ -678,7 +678,7 @@ body {
 /* topmenu */
 .menu-header {
 	height:35px;
-	background:url(images/topmenu_bg.gif) 0 0 repeat-x;
+	background:url(../images/topmenu_bg.gif) 0 0 repeat-x;
 	z-index:2;}
 
 .menu-header .container {
@@ -741,7 +741,7 @@ body {
 	
 .topmenu li ul li {
 	display:block;
-	background:url(images/dropdown_bg.png) 0 0 repeat-y;
+	background:url(../images/dropdown_bg.png) 0 0 repeat-y;
 	width: 135px;
 	margin:0;
 	height:auto;
@@ -753,7 +753,7 @@ body {
 	display:block;
 	color:#7d7d7d;
 	padding:7px 5px 7px 5px;
-	background:url(images/dropdown_line.png) bottom repeat-x;}
+	background:url(../images/dropdown_line.png) bottom repeat-x;}
 
 .topmenu li a span {
 	display:block;}
@@ -776,7 +776,7 @@ body {
 /* 2.2 Header Image Slider */
 /*----------------------------------------------*/
 .header {
-	background:url(images/header_image_bg.gif);
+	background:url(../images/header_image_bg.gif);
 	min-height:116px;
 	z-index:1}
 
@@ -786,7 +786,7 @@ body {
 
 .homepage .container{
 	height:404px;
-	background:url(images/slider_bg.png) 0 0 no-repeat;}
+	background:url(../images/slider_bg.png) 0 0 no-repeat;}
 
 .header .caption {
 	font-family:'MelbourneBold', Arial, sans-serif;
@@ -797,7 +797,7 @@ body {
 	bottom:0px}
 
 .header-line {
-	background:url(images/header_line.gif) 0 0 repeat-x;
+	background:url(../images/header_line.gif) 0 0 repeat-x;
 	height:8px;
 	clear:both}
 
@@ -811,10 +811,10 @@ body {
 	margin:0 auto}
 	
 .middle {
-	background:url(images/middle_bg.jpg) 0 0 repeat-x #fff}
+	background:url(../images/middle_bg.jpg) 0 0 repeat-x #fff}
 
 .middle .container {
-	background:url(images/middle_center_bg.jpg) center 0 no-repeat;
+	background:url(../images/middle_center_bg.jpg) center 0 no-repeat;
 	min-height:200px;
 	padding-top:130px}
 
@@ -831,7 +831,7 @@ body {
 	text-align:center;}
 
 .baner-img {
-	background:url(images/baners_top_shadow.png) center bottom no-repeat;
+	background:url(../images/baners_top_shadow.png) center bottom no-repeat;
 	padding:0 5px 5px 5px;}
 
 .baner-item img {
@@ -860,7 +860,7 @@ body {
 	text-align:center;}
 
 .header-title-image .image {
-	background:url(images/header_image_shadow.png) center bottom no-repeat;
+	background:url(../images/header_image_shadow.png) center bottom no-repeat;
 	width:708px;
 	height:131px;
 	padding:0 11px}
@@ -906,7 +906,7 @@ body {
 .botmenu ul li {
 	list-style:none;
 	display:inline;
-	background:url(images/botmenu_line.gif) right center no-repeat;
+	background:url(../images/botmenu_line.gif) right center no-repeat;
 	padding:0 12px 0 7px}
 
 .botmenu ul li.last {
@@ -925,13 +925,13 @@ body {
 	margin-left:12px;}
 
 .link_fb {
-	background:url(images/social_fb.gif) 0 0 no-repeat}
+	background:url(../images/social_fb.gif) 0 0 no-repeat}
 
 .link_twitter {
-	background:url(images/social_twitter.gif) 0 0 no-repeat}
+	background:url(../images/social_twitter.gif) 0 0 no-repeat}
 
 .link_rss {
-	background:url(images/social_rss.gif) 0 0 no-repeat}
+	background:url(../images/social_rss.gif) 0 0 no-repeat}
 
 .copyright {
 	text-align:right;
@@ -969,7 +969,7 @@ body {
 	color:#a6a6a6;
 	font-family:'MelbourneBold', Arial, sans-serif;
 	font-size:23px;
-	background:url(images/arrow_1_green.png) 0 3px no-repeat;
+	background:url(../images/arrow_1_green.png) 0 3px no-repeat;
 	padding:0 0 0 20px;
 	margin:10px 0 20px 0;}
 
@@ -1036,7 +1036,7 @@ blockquote p {
 	font-size:17px;
 	font-weight:normal;
 	color:#000;
-	background:url(images/icon_quotes.gif) 5px 10px no-repeat;
+	background:url(../images/icon_quotes.gif) 5px 10px no-repeat;
 	margin:10px 0;
 	line-height:1.5em;
 	border-top:1px dotted #969696;}
@@ -1095,7 +1095,7 @@ blockquote p {
 	
 .text .list_dots li,
 .list_dots li {
-	background:url(images/list_dot_green.gif) 0 5px no-repeat;
+	background:url(../images/list_dot_green.gif) 0 5px no-repeat;
 	margin:0 0 5px 0;
 	padding:0 0 5px 18px;
 	list-style:none;}	
@@ -1170,7 +1170,7 @@ ul.bordered li {
 /* 4.2 Newsletter box */
 /*----------------------------------------------*/
 .newsletter_box {
-	background:url(images/newsletter_bg.jpg) center 0 no-repeat;
+	background:url(../images/newsletter_bg.jpg) center 0 no-repeat;
 	width:755px;
 	height:65px;
 	margin:0 auto;
@@ -1204,7 +1204,7 @@ ul.bordered li {
 
 .btn-submit, .newsletter_box .btn-submit {
 	float:left;
-	background:url(images/btn_submit.gif) 0 0 no-repeat #a9c542;
+	background:url(../images/btn_submit.gif) 0 0 no-repeat #a9c542;
 	color:#344c01;
 	width:111px;
 	height:32px;
@@ -1233,7 +1233,7 @@ ul.bordered li {
 .link-zoom {
 	font-family: 'MelbourneBold', Arial, sans-serif;
 	font-size:15px;
-	background:url(images/icon_zoom.png) 0 0 no-repeat;
+	background:url(../images/icon_zoom.png) 0 0 no-repeat;
 	padding-left:20px}
 	
 .room-item .description {
@@ -1268,17 +1268,17 @@ ul.bordered li {
 	padding-left:25px}
 	
 .service-1 span {
-	background:url(images/icon_conditioner.gif) 0 0 no-repeat}
+	background:url(../images/icon_conditioner.gif) 0 0 no-repeat}
 .service-2 span {
-	background:url(images/icon_room_service.gif) 0 0 no-repeat}
+	background:url(../images/icon_room_service.gif) 0 0 no-repeat}
 .service-3 span {
-	background:url(images/icon_minibar.gif) 0 0 no-repeat}
+	background:url(../images/icon_minibar.gif) 0 0 no-repeat}
 .service-4 span {
-	background:url(images/icon_safe.gif) 0 0 no-repeat}
+	background:url(../images/icon_safe.gif) 0 0 no-repeat}
 .service-5 span {
-	background:url(images/icon_wifi.gif) 0 0 no-repeat}
+	background:url(../images/icon_wifi.gif) 0 0 no-repeat}
 .service-6 span {
-	background:url(images/icon_tv.gif) 0 0 no-repeat}
+	background:url(../images/icon_tv.gif) 0 0 no-repeat}
 
 .hide {
 	display:none}
@@ -1294,7 +1294,7 @@ ul.bordered li {
 	text-transform: uppercase;
 	font-family:'MelbourneBold', Arial, sans-serif;
 	font-size:23px;
-	background:url(images/arrow_1_green.png) 0 3px no-repeat;
+	background:url(../images/arrow_1_green.png) 0 3px no-repeat;
 	padding:0 0 0 20px;
 	margin:10px 0 20px 0;}
 
@@ -1310,7 +1310,7 @@ ul.bordered li {
 	font-size:15px;}
 
 .link-more {
-	background:url(images/icon_plus.gif) 0 2px no-repeat;
+	background:url(../images/icon_plus.gif) 0 2px no-repeat;
 	padding-left:20px}
 
 .news-item .entry p {
@@ -1347,7 +1347,7 @@ ul.bordered li {
 	
 .table-price thead {
 	font-family: 'MelbourneBold', Arial, sans-serif;
-	background:url(images/table_price_head_bg.gif) 0 0 repeat-x;
+	background:url(../images/table_price_head_bg.gif) 0 0 repeat-x;
 	height:53px;}
 
 .table-price thead td {
@@ -1365,12 +1365,12 @@ ul.bordered li {
 	height:38px;}
 
 .table-price thead td.first span {
-	background:url(images/table_price_head_first.gif) left 0 no-repeat;
+	background:url(../images/table_price_head_first.gif) left 0 no-repeat;
 	top:0;
 	left:-6px}
 
 .table-price thead td.last span {
-	background:url(images/table_price_head_last.gif) right 0 no-repeat;
+	background:url(../images/table_price_head_last.gif) right 0 no-repeat;
 	top:0;
 	right:-6px}
 
@@ -1404,7 +1404,7 @@ ul.bordered li {
 	color:#a6a6a6;
 	font-family:'MelbourneBold', Arial, sans-serif;
 	font-size:23px;
-	background:url(images/arrow_1_green.png) 0 3px no-repeat;
+	background:url(../images/arrow_1_green.png) 0 3px no-repeat;
 	padding:0 0 0 20px;
 	margin:10px 0 20px 0;}
 
@@ -1454,7 +1454,7 @@ ul.bordered li {
 	padding:5px 0 0 0;}
 
 .contact-form .contact-submit, .contact-submit {
-	background:url(images/btn_send_message.png) no-repeat;
+	background:url(../images/btn_send_message.png) no-repeat;
 	width:149px;
 	height:32px;
 	text-indent:-400px}
@@ -1483,16 +1483,16 @@ ul.bordered li {
 	color:#fff}
 
 .social-mail {
-	background:url(images/contact_social.png) 0 0 no-repeat}
+	background:url(../images/contact_social.png) 0 0 no-repeat}
 
 .social-twitter {
-	background:url(images/contact_social.png) 0 -24px no-repeat}
+	background:url(../images/contact_social.png) 0 -24px no-repeat}
 
 .social-skype {
-	background:url(images/contact_social.png) 0 -48px no-repeat}
+	background:url(../images/contact_social.png) 0 -48px no-repeat}
 
 .social-facebook {
-	background:url(images/contact_social.png) 0 -72px no-repeat}
+	background:url(../images/contact_social.png) 0 -72px no-repeat}
 
 /*----------------------------------------------*/
 /* 4.9 Reservetion Form */
@@ -1543,11 +1543,11 @@ ul.bordered li {
 
 .reservationForm .notice {
 	margin:0;
-	background:url(images/icon_warning.gif) 0 6px no-repeat;
+	background:url(../images/icon_warning.gif) 0 6px no-repeat;
 	padding-left:50px}
 	
 .reservationForm .btn-send {
-	background:url(images/btn_send.gif) 0 0 no-repeat;
+	background:url(../images/btn_send.gif) 0 0 no-repeat;
 	width:149px;
 	white-space:32px;
 	text-indent:-400px;
@@ -1562,12 +1562,12 @@ ul.bordered li {
 	padding-bottom:20px}
 	
 .square-green, .square-disable {
-	background:url(images/icon_square_green.gif) 0 4px no-repeat;
+	background:url(../images/icon_square_green.gif) 0 4px no-repeat;
 	padding-left:13px;
 	margin-left:25px}
 
 .square-disable{
-	background:url(images/icon_square_gray.gif) 0 4px no-repeat;}
+	background:url(../images/icon_square_gray.gif) 0 4px no-repeat;}
 
 /*----------------------------------------------*/
 /* 4.10 Comment form */
@@ -1618,7 +1618,7 @@ ul.bordered li {
 /* 4.11 Contact Box */
 /*----------------------------------------------*/
 .contact-address {
-	background:url(images/box_news_bg.gif) 0 0 repeat-y;
+	background:url(../images/box_news_bg.gif) 0 0 repeat-y;
 	border-top:1px dotted #959595;
 	border-bottom:1px dotted #959595;
 	padding:12px 15px;
@@ -1662,7 +1662,7 @@ ul.bordered li {
 	font-size:13px;}
 
 .widget_recent_entries .even, .widget_recent_comments .even {
-	background:url(images/box_news_bg.gif) repeat-y}
+	background:url(../images/box_news_bg.gif) repeat-y}
 	
 /*----------------------------------------------*/
 /* 5.2 Widget Recent Entries */
@@ -1700,4 +1700,4 @@ ul.bordered li {
 #reservationForm p.sending, #reservationForm p.textconfirm, #reservationForm p.texterror { display:none; }
 #reservationForm p.sending { margin-bottom:0; }
 #reservationForm #sending { padding: 10px 0 10px 300px; }
-#reservationForm p.notice.textconfirm { background:url(images/ok.jpg) 0 6px no-repeat; }
+#reservationForm p.notice.textconfirm { background:url(../images/ok.jpg) 0 6px no-repeat; }
