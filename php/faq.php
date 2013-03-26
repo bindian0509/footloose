@@ -4,7 +4,7 @@
 * Included    : config.inc.php
 * Date        : 25-March-2013
 * Author 	  : BHARAT VERMA (bindian0509@gmail.com)
-* Description : This PHP script displays the rates page. (Home Page)
+* Description : This PHP script displays the faq page. (Home Page)
 **/
 ini_set('display_errors', 'On');
 
@@ -15,7 +15,9 @@ ini_set('display_errors', 'On');
 include('includes/config.inc.php');
 
 // displaying the associated template file
-$smarty->display('rates.tpl');
+$smarty->assign("select", "faq");
+
+$smarty->display('faq.tpl');
 
 ?>
 

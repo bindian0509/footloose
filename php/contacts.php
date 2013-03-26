@@ -15,6 +15,8 @@ ini_set('display_errors', 'On');
 include('includes/config.inc.php');
 
 // displaying the associated template file
+$smarty->assign("select", "contacts");
+
 $smarty->display('contacts.tpl');
 
 ?>

@@ -15,13 +15,13 @@
 	<div class="container">
         
 	        <ul class="topmenu">
-				<li class="first current-menu-item"><a href="index.php">Home</a></li>
-              	<li><a href="about.php">About us</a></li>
-                <li class="parent"><a href="location.php">Location</a></li>                
-				<li><a href="rooms.php">Accomodation</a></li>
-                <li><a href="rates.php">Frequently Asked Questions</a></li>
-                <li><a href="reservations.php">Reservations</a></li>
-                <li class="last"><a href="contacts.php">Contact</a></li>
+				<li {if $select eq 'home'} class="current-menu-item" {/if} ><a href="index.php">Home</a></li>
+              	<li {if $select eq 'about'} class="current-menu-item" {/if} ><a href="about.php">About us</a></li>
+                <li {if $select eq 'location'} class="current-menu-item" {/if} ><a href="location.php">Location</a></li>                
+				<li {if $select eq 'accomodation'} class="current-menu-item" {/if} ><a href="accomodation.php">Accomodation</a></li>
+                <li {if $select eq 'faq'} class="current-menu-item" {/if} ><a href="faq.php">Frequently Asked Questions</a></li>
+                <li {if $select eq 'reservations'} class="current-menu-item" {/if} ><a href="reservations.php">Reservations</a></li>
+                <li {if $select eq 'contacts'} class="current-menu-item" {/if} ><a href="contacts.php">Contact</a></li>
        	  </ul>
         </div>
 </div>        

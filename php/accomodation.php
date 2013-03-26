@@ -4,7 +4,7 @@
 * Included    : config.inc.php
 * Date        : 25-March-2013
 * Author 	  : BHARAT VERMA (bindian0509@gmail.com)
-* Description : This PHP script displays the rooms page. (Home Page)
+* Description : This PHP script displays the accomodation page. (Home Page)
 **/
 ini_set('display_errors', 'On');
 
@@ -15,7 +15,9 @@ ini_set('display_errors', 'On');
 include('includes/config.inc.php');
 
 // displaying the associated template file
-$smarty->display('rooms.tpl');
+$smarty->assign("select", "accomodation");
+
+$smarty->display('accomodation.tpl');
 
 ?>
 
