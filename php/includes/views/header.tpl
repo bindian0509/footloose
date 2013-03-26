@@ -1,7 +1,7 @@
 <div class="head">
 <div class="container">
 
-	<div class="logo"><a href="index.php"><img src="/static/images/logo.png" alt="" width="240" height="56" border="0" /></a></div>
+	<div class="logo"><a href="index.php"><img src="/static/images/logo.png" alt="" width="220" height="93" border="0" /></a></div>
     
     <div class="head_right">
     	<div class="icon-top icon-phone">Call us directly: <span> +91-9990453017 / 8308824175 / 9958789496 </span></div>

@@ -1,4 +1,6 @@
 <script type="text/javascript" src="/static/js/autohide.js"></script>
+<style>
+</style>
 <script>$(document).ready(function(){					
  
 	$(function(){
@@ -7,6 +9,8 @@ $('#myId').data('holder',$('#myId').attr('placeholder'));
 
 $('#myId').focusin(function(){
     $(this).attr('placeholder','');
+    $(this).addClass('active');
+
 });
 $('#myId').focusout(function(){
     $(this).attr('placeholder',$(this).data('holder'));
@@ -15,6 +19,7 @@ $('#myId').focusout(function(){
 
 });
 });  </script>  
+	
     <div class="newsletter_box newsletter_index">
         <h3>Let us call you back:</h3>
         <form action="" method="post">
