@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Contacts | Welcome Inn</title>
+<title>Contacts | Footloose Holidays Pvt. Ltd.</title>
 <meta name="author" content="ThemeFuse" />
 <meta name="description" content="A short description of your company" />
 <meta name="keywords" content="Some keywords that best describes your businee" />
@@ -26,34 +26,7 @@
 </head>
 
 <body>
-<div class="head">
-<div class="container">
-
-	<div class="logo"><a href="index.php"><img src="/static/images/logo.png" alt="" width="240" height="56" border="0" /></a></div>
-    
-    <div class="head_right">
-    	<div class="icon-top icon-phone">Call us directly: <span>1-800-643-4300</span></div>
-        <div class="icon-top icon-map">Via Ludovisi 39, Rome, <a href="location.php"><span>View on Map</span></a></div>
-    </div>
-</div>
-</div>
-
-<!-- topmenu -->  
-<div class="menu-header">
-	<div class="container">
-        
-	        <ul class="topmenu">
-				<li class="first"><a href="index.php">Home</a></li>
-              	<li><a href="about.php">About us</a></li>
-				<li><a href="rooms.php">Rooms</a></li>
-                <li><a href="rates.php">Rates</a></li>
-                <li class="parent"><a href="location.php">Location</a></li>
-                <li><a href="reservations.php">Reservations</a></li>
-                <li><a href="news.php">News &amp; Promos</a></li>
-                <li class="last current-menu-item"><a href="contacts.php">Contact</a></li>
-       	  </ul>
-        </div>
-</div>        
+{include file = "header.tpl"}      
 <!--/ topmenu -->
 
 <div class="header">
@@ -136,10 +109,7 @@
             	<div class="inner">
             		<h3 class="bordered"><span>Easily </span> FIND US ON:</h3>
                 		<div class="social-box">
-							<div class="row social-mail"><a href="#">hello@envision.com</a></div>
-							<div class="row social-twitter"><a href="#">twitter.com/envision</a></div>
-							<div class="row social-skype"><a href="#">Skype ID:  envisionary</a></div>
-							<div class="row social-facebook"><a href="#">facebook.com/envision</a></div>
+							<div class="row social-mail"><a href="mailto:kuldepz@gmail.com">kuldepz@gmail.com</a></div>						
                         </div>
 				</div>                        
 			</div>
@@ -148,15 +118,14 @@
 				<h3><span>Contact us</span> DIRECTLY:</h3>
                 
 					<div class="contact-address">
-						<div class="address">Via Liudovisi, no.39, 06400  <br />Rome, Italy</div>
-						<div class="phone">Phone: +33 (0) 9399 7987</div>
-						<div class="fax">Fax:     +33 (0) 5499 7987</div>
+						<div class="address">359, Asha Pushp Vihar, <br /> Sector-14, Kaushambi, <br /> Ghaziabad, UP, India</div><br />
+						<div class="phone">Phone: +91 - 9990 453 017</div>
+                        <div class="phone">Phone: +91 - 9958 789 496</div>
+                        <div class="phone">Phone: +91 - 8308 824 175</div>						
 					</div>
                     
                     <div class="contact-maillist">
-                        <div class="contact-mail"><a href="mailto:sales@welcomeinn.com">sales@welcomeinn.com</a></div>
-                        <div class="contact-mail"><a href="mailto:affiliates@welcomeinn.com">affiliates@welcomeinn.com</a></div>
-                        <div class="contact-mail"><a href="mailto:support@welcomeinn.com">support@welcomeinn.com</a></div>
+                        <div class="contact-mail"><a href="mailto:kuldepz@gmail.com">kuldepz@gmail.com</a></div>                
 					</div>
 			</div>
         </div>
@@ -176,53 +145,6 @@
     </div>
 </div>
 </div>
-
-<div class="footer">
-
-	 <div class="container_24">
-    
-    	<div class="grid_3">
-        <img src="/static/images/logo_footer.png" width="110" height="72" alt="" />
-        </div>
-        
-        <div class="grid_8">
-        	<div class="address">
-                <p>Welcome Inn Resort Ltd,<br />
-                Via Ludovisi 39-45, Rome, 54267, Italy<br />
-                Phone: 1-800-245.356  / Fax: 1-800-245.357<br />
-                Email: <a href="mailto:guests@welcomeinn.com">guests@welcomeinn.com</a></p>
-        	</div>
-        </div>
-        
-        <div class="grid_13">
-        
-        	<div class="botmenu">
-            	<ul>
-                    <li class="first current-menu-item"><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About us</a></li>
-                    <li><a href="rooms.php">Rooms</a></li>
-                    <li><a href="rates.php">Rates</a></li>
-                    <li><a href="location.php">Location</a></li>
-                    <li><a href="reservations.php">Reservations</a></li>
-                    <li class="last"><a href="contacts.php">Contact</a></li>
-       	  		</ul>
-            </div>
-            
-            <div class="fallow">
-            	<span>Follow us on:</span> <a href="#" class="link_social link_fb">Facebook</a> <a href="#" class="link_social link_twitter">Twitter</a> <a href="#" class="link_social link_rss">RSS</a>
-            </div>
-            
-            <div class="copyright">
-            <p>&copy; 2010 - 2011 Welcome Inn</p>
-            </div>
-            
-        </div>
-        
-        <div class="clear"></div>
-
-	</div>
-    
-</div>
-
+{include file = "footer.tpl"}
 </body>
 </html>
