@@ -52,39 +52,21 @@
                 
                 <div class="divider_space"></div>
                     
-                <h2>HOW TO GET HERE</h2>
+                <h2>HOW TO REACH RISHIKESH</h2>
                 	
                 
-              	<div class="col col_1_2">
-               		<h3 class="title_bg">From Ciampino Airport</h3>
+              	<div class="col">
+               		<h3 class="title_bg">From New Delhi</h3>
 					<ul class="list_dots bordered">
-                   	  	<li>Take the C-32B towards Barcelona</li>
-                    	<li>Take exit 11 (Les Corts, Zona Universitaria)</li>
-                    	<li>Take the B-23 until arriving into Barcelona</li>
-                    	<li>Continue on Avinguda Diagonal straight ahead until no 589</li>
+                   	  	<li>Hire a cab or drive to Rishikesh from New Delhi (245 Kms).</li>
+                    	<li>Take an overnight volvo from Delhi for Rishikesh. Daily Service. Can be booked online from redbus.in</li>
+                    	<li>By Train, the most suitable railway station would be Haridwar. One can easily hire a cab from there till Rishikesh.</li>
+                    	<li>There are Daily flights from New Delhi to Jolly Grant (nearest airport).</li>
                   	</ul>
-                </div>
-                
-                <div class="col col_1_2">
-                	<h3 class="title_bg">From the Railway Station</h3>
-                    <ul class="list_dots bordered">
-                   	  	<li>Follow the M3, A2 and A20 from the City centre</li>
-                    	<li>Head towards Newtownards</li>
-                    	<li>You'll find the hotel opposite the famous Stormont </li>
-                    	<li>Castle and Parliament Buildings.</li>
-                  	</ul>
-                </div>
+                </div>            
                 <div class="clear"></div>  
                 
-                <div class="divider_thin"></div>
-                
-                <h3>This is the Example of Shortcode: [list_dotes] not in the column.</h3>
-                	<ul class="list_dots">
-                   	  	<li>Take the C-32B towards Barcelona</li>
-                    	<li>Take exit 11 (Les Corts, Zona Universitaria)</li>
-                    	<li>Take the B-23 until arriving into Barcelona</li>
-                    	<li>Continue on Avinguda Diagonal straight ahead until no 589</li>
-                  	</ul>              
+                <div class="divider_thin"></div>           
 			</div>
         </div>
         <!--/ content -->

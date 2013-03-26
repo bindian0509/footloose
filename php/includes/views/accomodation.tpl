@@ -48,7 +48,7 @@
 
 	<div class="header-title-image">
     	<div class="image"><img src="/static/images/header/header_3.jpg" width="708" height="124" alt="" /></div>
-    	<h1><span>Take a look at our  </span> Guest Rooms</h1>
+    	<h1><span>Take a look at our  </span> Residential Tents </h1>
     </div>
     
     <!-- middle content -->
@@ -59,85 +59,29 @@
        	  	<div class="text">
             
                 <div class="room-item">
-                	<h2><a href="#">Double Room Standard</a></h2>
-                    
-                	<div class="image">
-						<img src="/static/images/temp_room_1.jpg" width="234" height="112" alt="" /><br />
-						<a href="/static/images/temp_slide_1.jpg" class="hide link-zoom" rel="prettyPhoto[room_1]">View photo gallery</a>
-						<a href="/static/images/temp_slide_2.jpg" class="hide" rel="prettyPhoto[room_1]">Photo 2</a>
-						<a href="/static/images/temp_slide_3.jpg" class="hide" rel="prettyPhoto[room_1]">Photo 3</a>
-					</div>
-                    
-                    <div class="description">
-                    
-                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud included amenities:</p>
-                    	<div class="services-included">
-                        	<ul>
-                                <li class="service-1"><span>Air Conditioning</span></li>
-                                <li class="service-2"><span>Room Service</span></li>
-                                <li class="service-3"><span>Mini-Bar</span></li>
-                                <li class="service-4"><span>Built-in Safe</span></li>
-                                <li class="service-5"><span>Free internet WiFi</span></li>
-                                <li class="service-6"><span>TV (45 channels)</span></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                
-                <div class="room-item">
-                	<h2><a href="#">Double Room Superior</a></h2>
-                    
-                	<div class="image">
-						<img src="/static/images/temp_room_2.jpg" width="234" height="112" alt="" /><br />
-						<a href="/static/images/temp_img_3.jpg" class="hide link-zoom" rel="prettyPhoto[room_2]">View photo gallery</a>
-						<a href="/static/images/temp_img_4.jpg" class="hide" rel="prettyPhoto[room_2]">Photo 2</a>
-					</div>
-                    
-                    <div class="description">
-                    
-                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud included amenities:</p>
-                    	<div class="services-included">
-                        	<ul>
-                                <li class="service-1"><span>Air Conditioning</span></li>
+                	<h2><a href="#">ACCOMODATION</a></h2>                    
+                		<p>A small jungle trail would take you to the river which is a perfect setting for swimming, relaxing & chillaxing.</p>
+                        <p>The natural surrounding around our camp ensures your peace and freedom for which you have come from a far-off distance. And, when you see off from here, you feel rejuvenated and tempted to visit us again.</p>
+                        <strong><p>Residential Tents :</p></strong>
+                        <p>We have 15 canvas tents of which 12 are with area of 10’ by 12’ and three are  with area of 12' by 12 ' and with a canopy in front, to enjoy the awe-inspiring view of nature. All the tents are provided with twin beds with crisp linen, two easy chairs in front and inside furnishings like a bedside table. The tents are pitched in a well spread out area.</p>
+                        <p>Toilets at the camp are in a central compound. There are 3 western  Running Water Toilets and 3 Bathrooms along with one combined toilet-bathroom all with running water. More Toilet & Bathrooms can be pitched (dry pit only) for bigger groups in case of advance notification. All toilets have paper/tissue roll, & dustbin.</p>
 
-                                <li class="service-3"><span>Mini-Bar</span></li>
-                                <li class="service-4"><span>Built-in Safe</span></li>
-                                <li class="service-5"><span>Free internet WiFi</span></li>
-                                <li class="service-6"><span>TV (45 channels)</span></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                
-                <div class="room-item">
-                	<h2><a href="#">SINGLE Junior Suite</a></h2>
-                    
-                	<div class="image">
-						<img src="/static/images/temp_room_3.jpg" width="234" height="112" alt="" /><br />
-						<a href="/static/images/temp_slide_3.jpg" class="hide link-zoom" rel="prettyPhoto[room_3]">View photo gallery</a>
-						<a href="/static/images/temp_slide_1.jpg" class="hide" rel="prettyPhoto[room_3]">Photo 2</a>
-						<a href="/static/images/temp_slide_2.jpg" class="hide" rel="prettyPhoto[room_3]">Photo 3</a>
-					</div>
-                    
-                    <div class="description">
-                    
-                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud included amenities:</p>
-                    	<div class="services-included">
-                        	<ul>
-                                <li class="service-1"><span>Air Conditioning</span></li>
-                                <li class="service-2"><span>Room Service</span></li>
-                                <li class="service-3"><span>Mini-Bar</span></li>
-                                <li class="service-5"><span>Free internet WiFi</span></li>
-                                <li class="service-6"><span>TV (45 channels)</span></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
+                        <strong><p>Camp Facilities :</p></strong>
+<dl>
+<dt></dt>
+<dd> - Large dining area with food served in buffet style.</dd>
+<dd> - Our camp has proper installation of electricity with power back up. Inside tents, electric fans are there.</dd>
+<dd> - We totally value saving power, minimal use of power is also  in tandem with the natural surroundings esp during night when the sky is starlit.</dd>
+<dd> - Neat and hygienic Indian / Western toilets with flush and running water.</dd>
+<dd> - Hot/Cold Water.</dd>
+<dd> - Yoga & Meditation, On demand.</dd>
+<dd> - Mineral water.</dd>
+<dd> - Access to uncountable hiking trails.</dd>
+<dd> - Novels, indoor games, guitar.</dd>
+<dd> - First Aid Kit and Doctor on call.</dd>
+<dd> - Round the clock Security.</dd>
+<dd> - Parking.</dd>
+</dl>
                 </div>
 			</div>
         </div>
