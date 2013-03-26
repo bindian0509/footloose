@@ -122,15 +122,6 @@
                 </div>
             	<a href="reservations.php"><img src="/static/images/calendar_230.jpg" width="230" height="73" alt="" border="0" /></a>			</div>
             
-			<div class="box box_gray widget-container widget_recent_entries">
-				<h3><span>Latest</span> News &amp; Promos</h3>
-				<ul>
-                    <li><a href="news-details.php"><img src="/static/images/temp_thumb_1.jpg" alt="" width="50" height="50" border="0" class="thumbnail" /></a> <a href="news-details.php">NEW jumbo breakfast in bed included for all guests!</a> <div class="date">Feb 23, 2011</div> </li>
-                    <li><a href="news-details.php"><img src="/static/images/temp_thumb_2.jpg" alt="" width="50" height="50" border="0" class="thumbnail" /></a> <a href="news-details.php">Awesome new pool on the west side entrance!</a> <div class="date">Feb 11, 2011</div> </li>
-                    <li><a href="news-details.php"><img src="/static/images/temp_thumb_3.jpg" alt="" width="50" height="50" border="0" class="thumbnail" /></a> <a href="news-details.php">Further reductions for cash checkout transactions</a> <div class="date">Feb 23, 2011</div> </li>
-                    <li><a href="news-details.php"><img src="/static/images/temp_thumb_4.jpg" alt="" width="50" height="50" border="0" class="thumbnail" /></a> <a href="news-details.php">Further reductions for cash checkout transactions</a> <div class="date">Dec 18, 2010</div> </li>
-				</ul>
-			</div>
         </div>
         <!--/ sidebar -->
         
@@ -138,14 +129,8 @@
 	</div>
     <!--/ middle content -->
     
-    <div class="newsletter_box">
-        <h3>Sign up for Newsletter:</h3>
-        <form action="" method="post">
-        	<input type="text" value="Enter your e-mail address"   name="" class="inputField" />
-			<input type="submit" value="Submit" class="btn-submit" />
-        </form>
-        <div class="clear"></div>
-    </div>
+{include file = "callback.tpl"}
+
 </div>
 </div>
 

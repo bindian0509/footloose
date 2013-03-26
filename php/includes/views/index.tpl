@@ -50,19 +50,19 @@
 				<div class="slides_container">
 					<div>
 						<a href="#"><img src="/static/images/temp_slide_1.jpg" width="960" height="379" alt="Enjoy the breath-taking views from our Hotel" /></a>
-						<div class="caption"><p>Enjoy the breath-taking views from our Hotel</p></div>
+						<div class="caption"><p>Relax in the breath-taking views of Rhishikesh</p></div>
 					</div>
 					<div>
 						<img src="/static/images/temp_slide_2.jpg" width="960" height="379" alt="Great panaromic mountain view makes the best place to admire nature." />
-						<div class="caption"><p>Great panaromic mountain view makes the best place to admire nature.</p></div>
+						<div class="caption"><p>Rejuvenate with the variety of adventure sports we offer</p></div>
 					</div>
                     <div>
 						<a href="#"><img src="/static/images/temp_slide_3.jpg" width="960" height="379" alt="Sea with a very beautiful view to the sea and Sunny Beach Resort." /></a>
-						<div class="caption"><p>Sea with a very beautiful view to the sea and Sunny Beach Resort.</p></div>
+						<div class="caption"><p>Take a vacation where the Indian culture is at its best</p></div>
 					</div>
                     <div>
 						<a href="#"><img src="/static/images/temp_slide_4.jpg" width="960" height="379" alt="We offer a choice of comfortable rooms and great rates" /></a>
-						<div class="caption"><p>We offer a choice of comfortable rooms and great rates</p></div>
+						<div class="caption"><p>Great Panaromic view makes it the best place to admire nature</p></div>
 					</div>
 				</div>
 				<a href="#" class="prev">Previous</a>
@@ -122,14 +122,8 @@
 	</div>
     <!--/ middle content -->
     
-    <div class="newsletter_box newsletter_index">
-        <h3>Sign up for Newsletter:</h3>
-        <form action="" method="post">
-        	<input type="text" value="Enter your e-mail address"  name="" class="inputField" />
-			<input type="submit" value="Submit" class="btn-submit" />
-        </form>
-        <div class="clear"></div>
-    </div>
+{include file = "callback.tpl"}
+
 </div>
 </div>
 {include file = "footer.tpl"}

@@ -180,14 +180,8 @@ $(function(){
 	</div>
     <!--/ middle content -->
     
-    <div class="newsletter_box">
-        <h3>Sign up for Newsletter:</h3>
-        <form action="" method="post">
-        	<input type="text" value="Enter your e-mail address"   name="" class="inputField" />
-			<input type="submit" value="Submit" class="btn-submit" />
-        </form>
-        <div class="clear"></div>
-    </div>
+{include file = "callback.tpl"}
+
 </div>
 </div>
 

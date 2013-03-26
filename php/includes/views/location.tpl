@@ -96,7 +96,8 @@
             	<h3 class="bordered"><span>Make a</span> Reservation</h3>
                 <p><span class="text-green"><a href="reservations.php">Send us a message</a></span> with your desired room type, arrival date and number of nights you'd like to reserve, and we'll contact you in no time.</p>
                 </div>
-            	<a href="reservations.php"><img src="/static/images/calendar_230.jpg" width="230" height="73" alt="" border="0" /></a>			</div>
+            	<a href="reservations.php"><img src="/static/images/calendar_230.jpg" width="230" height="73" alt="" border="0" /></a>			
+            </div>
             
         </div>
         <!--/ sidebar -->
@@ -105,14 +106,8 @@
 	</div>
     <!--/ middle content -->
     
-    <div class="newsletter_box">
-        <h3>Sign up for Newsletter:</h3>
-        <form action="" method="post">
-        	<input type="text" value="Enter your e-mail address"   name="" class="inputField" />
-			<input type="submit" value="Submit" class="btn-submit" />
-        </form>
-        <div class="clear"></div>
-    </div>
+{include file = "callback.tpl"}
+
 </div>
 </div>
 
