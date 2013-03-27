@@ -45,7 +45,7 @@ class Post {
 	public static function getAll() {
 	
 		// Build database query
-		$sql = 'select * from post';
+		$sql = 'select * from RESERVATIONS';
 
 		// Execute database query
 		return self::getBySql($sql);
@@ -69,7 +69,7 @@ class Post {
 		return $object;
 	}
 
-	public function insert() {
+	public function createReservation($tent_type, $no_of_children, $no_of_adults, $checkin_date, $checkout_date, $email, $phone) {
 	
 		// Get database object from global scope
 		global $database;
@@ -79,7 +79,9 @@ class Post {
 		$content = $database->sanitize($this->content);
 	
 		// Build database query
-		$sql = sprintf("insert into post (title, content) values ('%s', '%s')", $title, $content);
+		// $sql = sprintf("insert into post (title, content) values ('%s', '%s')", $title, $content);
+
+		$sql = "INSERT INTO RESERVATIONS (RESERVATION_ID, ROOM_TYPE, NO_OF_ADULTS, NO_OF_CHILDREN, CHECKIN_DATE, CHECKOUT_DATE, EMAIL, PHONE) VALUES ( ".$tent_type.", ".$no_of_children.", ".$no_of_adults.", ".$checkin_date.", ".$checkout_date.", ".$email.", ".$phone.")";
 				
 		// Execute data manipulation
 		return $database->execute($sql);	

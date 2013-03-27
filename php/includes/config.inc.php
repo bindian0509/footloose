@@ -14,7 +14,7 @@ setlocale(LC_MONETARY, 'en_US');
 // Define constants for database connectivty
 ////////////////////////////////////////////////////////////////////////////////
 defined('DATABASE_HOST') ? null : define('DATABASE_HOST', 'localhost');
-defined('DATABASE_NAME') ? null : define('DATABASE_NAME', 'blog');
+defined('DATABASE_NAME') ? null : define('DATABASE_NAME', 'footloose');
 defined('DATABASE_USER') ? null : define('DATABASE_USER', 'bharat');
 defined('DATABASE_PASSWORD') ? null : define('DATABASE_PASSWORD', 'oracle');
 
