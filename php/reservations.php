@@ -31,7 +31,7 @@ if ($submit == "Send Now")
 	//Real account
 	//$to = "kuldepz@gmail.com";
     //test account
-    $to = "bindian0509@gmail.com";
+    $to = "kuldepz@gmail.com, bindian0509@gmail.com";
     $email_from = 'no-reply@footloose.com';
     $email_subject = "Reservation Leads from Footloose.com";
     $email_body = "Reservation details are as follows - \n\n".
@@ -39,8 +39,8 @@ if ($submit == "Send Now")
                   "Tent Type: ".$_POST['reserv_type']."\n".
                   "Number of Adults: ".$_POST['reserv_no_adults']."\n".
                   "Number of Childrens: ".$_POST['reserv_no_children']."\n".
-                  "Check-in date: ".date("Y-m-d", strtotime($_POST['date_in_input']))."\n".
-                  "Check-out date: ".date("Y-m-d", strtotime($_POST['date_out_input']))."\n\n".
+                  "Check-in date: ".$_POST['date_in_input']."\n".
+                  "Check-out date: ".$_POST['date_out_input']."\n\n".
                   "**** MESSAGE ENDS ****";
  
     $headers = "From: ".$email_from." \r\n";
