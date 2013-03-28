@@ -97,7 +97,7 @@ class Reservation {
 		// Build database query
 		$sql = "INSERT INTO RESERVATIONS (ROOM_TYPE, NO_OF_ADULTS, NO_OF_CHILDREN, CHECKIN_DATE, CHECKOUT_DATE, EMAIL, PHONE) VALUES ( '".$tent_type."', ".$no_of_children.", ".$no_of_adults.", '".$checkin_date."', '".$checkout_date."', '".$email."', '".$phone."' )";
 
-		print_r($sql);
+		//print_r($sql);
 				
 		// Execute data manipulation
 		return $database->execute($sql);	

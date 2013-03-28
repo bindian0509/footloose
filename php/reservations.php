@@ -35,6 +35,8 @@ if ($submit == "Send Now")
 	$reservationObj->insertReservationArr = $insertReservationArr;
     // Saving values 
 	$reservationObj->save();
+    echo json_encode (array ("status"=> "ok"));
+    return;
 }
 
 // For highlighting of current class 

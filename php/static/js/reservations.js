@@ -55,12 +55,15 @@ function tfuse_reservations_form(){
 						   type: "POST",
 						   url: "./reservations.php",
 						   data: $datastring,
+                           dataType: "json",
 						   success: function(response){
                                jQuery("#reservationForm p.sending, #reservationForm p.notice").hide();
-                               if(response=='success') {
-                                   jQuery("#reservationForm p.textconfirm").show();
-                               } else {
-                                   jQuery("#reservationForm p.texterror").show();
+                               if(!! response.status) {
+                                    if (response.status == 'ok') {
+                                        jQuery("#reservationForm p.textconfirm").show();
+                                    } else {
+                                        jQuery("#reservationForm p.texterror").show();
+                                    }
                                }
 						   }
 						});
