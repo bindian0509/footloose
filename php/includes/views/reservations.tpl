@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Reservations | Footloose Holidays Pvt. Ltd.</title>
-<meta name="author" content="ThemeFuse" />
+<meta name="author" content="bharat" />
 <meta name="description" content="A short description of your company" />
 <meta name="keywords" content="Some keywords that best describes your businee" />
 
@@ -84,16 +84,15 @@ $(function(){
             
                 <h2>SEND REQUEST FOR RESERVATION:</h2>
                 
-                <form action="" method="post" class="reservationForm" id="reservationForm">
+                <form method="POST"  action="/reservations.php" name="form" class="reservationForm" id="reservationForm">
                 
                 	<!-- column 1 -->
                     <div class="column_3">
                         <div class="row field_select">
-							<label>Choose room type:</label><br />
+							<label>Choose Residential Tent:</label><br />
                             <select class="select_styled" name="reserv_type" id="reserv_type">
-                                <option value="Single_Room">Single Room</option>
-                                <option value="Double_Room">Double Room</option>
-                                <option value="Family_Suite">Family Suite</option>
+                                <option value="10' x 12' Residential Tent">10' x 12' Tent</option>
+                                <option value="10' x 12' Residential Tent">12' x 12' Tent</option>
                             </select>
 						</div>
                         
@@ -123,7 +122,7 @@ $(function(){
                         <div class="row field_text">
                             <label>Your email address:</label><br />
                             
-                            <input name="email" value="" id="email" class="inputtext required" size="40" type="text" />
+                            <input name="email" id="email" class="inputtext required" size="40" type="text" />
 						</div>
                     </div>
                     <!--/ column 1 -->
@@ -153,7 +152,7 @@ $(function(){
                     <div class="notice_table"><span class="square-green">your selection</span> <span class="square-disable">not available</span></div>
                     
                     <div class="field_submit">
-                        <input type="submit" value="Send Now" id="send" class="btn-send" />
+                        <input type="submit" name="submit" value="Send Now" id="send" class="btn-send" />
                         <p class="sending"><img id="sending" src="/static/images/ajax-loader.gif"></p>
                         <p class="notice">Please note that this is not an actual reservation, but only a request for one. <strong>We will contact you for a confirmation shortly after. Thank you!</strong></p>
                         <p class="notice textconfirm">Thank you for contacting us.<br />We will get back to you as soon as possible.</p>

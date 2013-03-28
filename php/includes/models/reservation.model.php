@@ -1,6 +1,6 @@
 <?php
 
-class Post {
+class Reservation {
 	
 	public $id = null;
 	public $title = null;
@@ -69,15 +69,20 @@ class Post {
 		return $object;
 	}
 
-	public function createReservation($tent_type, $no_of_children, $no_of_adults, $checkin_date, $checkout_date, $email, $phone) {
+	public function insert($insertReservationArr) {
 	
 		// Get database object from global scope
 		global $database;
 		
 		// Sanitize user input
-		$title = $database->sanitize($this->title);
-		$content = $database->sanitize($this->content);
-	
+		$tent_type = $database->sanitize($insertReservationArr['reserv_type']);
+		$no_of_children = $database->sanitize($insertReservationArr['reserv_no_children']);
+		$no_of_adults =$database->sanitize($insertReservationArr['reserv_no_adults']);
+		$checkin_date = $database->sanitize($insertReservationArr['date_in_input']);
+		$checkout_date = $database->sanitize($insertReservationArr['date_out_input']);
+		$email = $database->sanitize($insertReservationArr['email']);
+		//$phone = $database->sanitize($insertReservationArr['phone']);
+
 		// Build database query
 		// $sql = sprintf("insert into post (title, content) values ('%s', '%s')", $title, $content);
 

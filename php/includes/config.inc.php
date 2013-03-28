@@ -47,7 +47,7 @@ defined('VIEW_PATH') ? null : define('VIEW_PATH', INCLUDE_PATH.'views'.DS);
 include(FUNCTION_PATH.'functions.inc.php');
 include(FUNCTION_PATH.'sitetext.inc.php');
 include(LIB_PATH.'database.class.php');
-include(MODEL_PATH.'post.model.php');
+include(MODEL_PATH.'reservation.model.php');
 include(SMARTY_PATH.'libs'.DS.'Smarty.class.php');
 
 ////////////////////////////////////////////////////////////////////////////////

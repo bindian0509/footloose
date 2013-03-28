@@ -83,45 +83,18 @@
         </div>
         
         <div class="baner-item">
-        	<div class="baner-img"><a href="rooms.php"><img src="/static/images/baner_top_2.jpg" alt="" width="230" height="73" border="0" /></a></div>
-        	<h2><span>View the</span> Rooms</h2>
+        	<div class="baner-img"><a href="accomodation.php"><img src="/static/images/baner_top_2.jpg" alt="" width="230" height="73" border="0" /></a></div>
+        	<h2><span>View </span> Accomodation</h2>
         </div>
         
         <div class="baner-item">
-        	<div class="baner-img"><a href="news.php"><img src="/static/images/baner_top_3.jpg" alt="" width="230" height="73" border="0" /></a></div>
-            <h2><span>Latest</span> Promos</h2>
+        	<div class="baner-img"><a href="contacts.php"><img src="/static/images/baner_top_3.jpg" alt="" width="230" height="73" border="0" /></a></div>
+            <h2><span>Get in</span> Touch</h2>
         </div>
     </div>    
     
 	<!--/ baners top -->
-    
-    <!-- middle content -->
-    <div class="container_24">
-    
-    	<div class="grid_12">
-        <div class="news-item">
-            	<h2><a href="news-details.php">Welcome to our Hotel</a></h2>
-                <div  class="news-text">
-                    <img src="/static/images/temp_img_2.jpg" width="140" height="93" alt="" class="alignleft" />
-                    <p>Enjoy a striking destination inspired by the extraordinary landscape, melding the offerings of thrilling in outdoor recreation and renowned spa treatments, with the hot &amp; unsurpassed beauty of the City of Seven Hills. </p>
-                </div>
-			</div>
-        </div>
         
-        <div class="grid_12">
-            <div class="news-item">
-            	<h2><a href="news-details.php">BED &amp; BREAKFAST</a></h2>
-                <div  class="news-text">
-                    <img src="/static/images/temp_img_1.jpg" width="140" height="93" alt="" class="alignleft" />
-                    <p>Indulge in our delicious cuisine infused with organic ingredients and prepared by expert chefs. We are providing a wide array of fine dining establishments offering stunning views from every turn in a relaxing and cosy atmosphere.</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="clear"></div>
-	</div>
-    <!--/ middle content -->
-    
 {include file = "callback.tpl"}
 
 </div>

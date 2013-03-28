@@ -48,7 +48,6 @@
                 <p>The lodging and dinning facilities along with toilets are built on an upper hill portion of our camp while the ground level portion caters all sports and leisure activities. Keeping in mind the relaxation of our customers, there are various sitting and relaxing points at both upper and ground level. At our porch, Peacocks & other Himalayan birds can be frequently seen around our camp at dusk & dawn while you are relaxing or sharing your stories with your friends.</p>
                 
                 
-                <img src="/static/images/temp_map.jpg" width="670" height="229" alt="" />
                 
                 <div class="divider_space"></div>
                     
