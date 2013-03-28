@@ -5,7 +5,7 @@ class Database {
 	private $connection = null;
 	private $is_magic_quotes_active = null;
 	private $is_real_escape_string_active = null;
-	
+
 	public function __construct() {
 		$this->is_magic_quotes_active = get_magic_quotes_gpc();
 		$this->is_real_escape_string_active = function_exists("mysql_real_escape_string");		
