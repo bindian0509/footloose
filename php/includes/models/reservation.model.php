@@ -85,12 +85,12 @@ class Reservation {
 		global $database;
 		
 		// Sanitize user input
-		$tent_type = $database->sanitize($this->insertReservationArr['tent_type']);
+		$tent_type = $this->insertReservationArr['tent_type'];
 		$no_of_children = $this->insertReservationArr['no_of_children'];
 		$no_of_adults = $this->insertReservationArr['no_of_adults'];
 		$checkin_date = $this->insertReservationArr['checkin_date'];
 		$checkout_date = $this->insertReservationArr['checkout_date'];
-		$email = $database->sanitize($this->insertReservationArr['email']);
+		$email = $this->insertReservationArr['email'];
 		$phone = "0000000000";
 		//$phone = $database->sanitize($this->insertReservationArr;['phone']);
 
