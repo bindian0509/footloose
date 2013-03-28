@@ -18,7 +18,7 @@
 				width: 960,
 				height: 379,
 				preload: true,
-				preloadImage: '/images/loading.gif',
+				preloadImage: '/static/images/loading.gif',
 				play: 5000,
 				pause: 2500,
 				effect: 'fade, fade',

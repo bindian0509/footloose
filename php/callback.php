@@ -14,34 +14,35 @@
 **/
 include('includes/config.inc.php');
 
-$submit = $_POST['submit'];
 
-if ($submit == "Send Now")  
+if ($_POST['submit'] == "Submit") 
 {
-	// Get user input from form -- Form RESERVATIONS have 6,7 
-	$insertReservationArr = array (
-		'tent_type' => $_POST['reserv_type'],
-		'no_of_children' =>  $_POST['reserv_no_children'],
-		'no_of_adults' =>  $_POST['reserv_no_adults'],
-		'checkin_date' => date("Y-m-d", strtotime($_POST['date_in_input'])), 
-		'checkout_date' =>  date("Y-m-d", strtotime($_POST['date_out_input'])), 
-		'email' =>  $_POST['email']
-		);
-
-
-	// Creating New object for Reseravtion Model
-	$reservationObj = new Reservation();
-    // Assigning the Values to the variable
-	$reservationObj->insertReservationArr = $insertReservationArr;
-    // Saving values 
-	$reservationObj->save();
-    echo json_encode (array ("status"=> "ok"));
-    return;
+	/* Form Input Data */
+	$phone = $_POST['callbackphone'];
+    /* lead redirection email */
+    $to = "bindian0509@gmail.com";
+    // test account
+    //$to = "bindian0509@gmail.com";
+    $email_from = 'no-reply@footloose.com';
+    $email_subject = "Leads from Footloose.com";
+    $email_body = "Lead details are as follows - \n\n".
+                  "Contact No.: ".$phone."\n\n".
+                  "**** MESSAGE ENDS ****";
+ 
+    $headers = "From: ".$email_from." \r\n";
+    $headers .= "Reply-To: ".$to." \r\n";
+ 
+    mail($to,$email_subject,$email_body,$headers);
+    $success_msg = "Thanks ... we will shortly get in touch with you !";
+    
+    $smarty->assign("success_msg", $success_msg);    
+    // Displaying the contact_us.tpl
+    $pathURL = $_SERVER['HTTP_REFERER'];
+    
+    $tokens = explode('/', $pathURL);
+    $toDisplay = $tokens[sizeof($tokens)-1];
+	redirect_to($toDisplay."#callback");
+	//$smarty->display($toDisplay.".tpl");              
 }
-
-// For highlighting of current class 
-$smarty->assign("select", "reservations");
-// displaying the associated template file
-$smarty->display('reservations.tpl');
 
 ?>

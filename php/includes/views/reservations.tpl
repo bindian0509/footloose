@@ -146,11 +146,8 @@ $(function(){
 						</div>
                   </div>
                     <!--/ column 3 -->
-                    
                     <div class="clear"></div>
-                    
                     <div class="notice_table"><span class="square-green">your selection</span> <span class="square-disable">not available</span></div>
-                    
                     <div class="field_submit">
                         <input type="submit" name="submit" value="Send Now" id="send" class="btn-send" />
                         <p class="sending"><img id="sending" src="/static/images/ajax-loader.gif"></p>
