@@ -21,7 +21,9 @@ defined('DATABASE_PASSWORD') ? null : define('DATABASE_PASSWORD', 'oracle');
 */
 
 // Settings for server 
-defined('DATABASE_HOST') ? null : define('DATABASE_HOST', 'localhost');
+$mysql_host = getenv ("OPENSHIFT_MYSQL_DB_HOST");
+$mysql_port = getenv ("OPENSHIFT_MYSQL_DB_PORT");
+defined('DATABASE_HOST') ? null : define('DATABASE_HOST', $mysql_host.":".$mysql_port);
 defined('DATABASE_NAME') ? null : define('DATABASE_NAME', 'footloose');
 defined('DATABASE_USER') ? null : define('DATABASE_USER', 'admincqeUbN6');
 defined('DATABASE_PASSWORD') ? null : define('DATABASE_PASSWORD', '2XbllREfX327');
