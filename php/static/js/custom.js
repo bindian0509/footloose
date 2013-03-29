@@ -77,7 +77,7 @@ function tfuse_custom_form(){
 
 						jQuery.ajax({
 						   type: "POST",
-						   url: "./sendmail.php",
+						   url: "/sendmail.php",
 						   data: $datastring,
 						   success: function(response){
 						   jQuery(".ajax_form").before("<div class='ajaxresponse' style='display: none;'></div>");
