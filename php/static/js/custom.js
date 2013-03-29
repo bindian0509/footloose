@@ -79,12 +79,13 @@ function tfuse_custom_form(){
 						   type: "POST",
 						   url: "./sendmail.php",
 						   data: $datastring,
+						   dataType: "json",
 						   success: function(response){
-						   	jQuery(".ajax_form").before("<div class='ajaxresponse' style='display: none;'></div>");
+						   jQuery(".ajax_form").before("<div class='ajaxresponse' style='display: none;'></div>");
 						   jQuery(".ajaxresponse").html(response).slideDown(400);
 						   jQuery(".ajax_form #send").fadeIn(400);
 						   jQuery(".ajax_form input, .ajax_form textarea, .ajax_form radio, .ajax_form select").val("");
-						   		jQuery(".ajax_form p.sending, .ajax_form p.notice").hide();
+						   jQuery(".ajax_form p.sending, .ajax_form p.notice").hide();
                                if(!! response.status) {
                                     if (response.status == 'ok') {
                                         jQuery(".ajax_form p.textconfirm").show();

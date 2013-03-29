@@ -94,6 +94,18 @@
     </div>    
     
 	<!--/ baners top -->
+    <!-- middle content -->
+    <div class="container_24">
+        <div class="news-item">
+            	<h2><a href="index.php">Footloose holidays Pvt. Ltd.</a></h2>
+                <div class="news-text">
+                    <p><strong>Footloose holidays Pvt. Ltd.</strong> manifests itself through the first step in the world of adventure holidays/leisure trips/hospitality experience through a jungle camp in Shivpuri, Rishikesh. <strong>The Footloose Camp</strong> sits beautifully in the lap of nature on the bank of river Heul surrounded by “tresses of Shiva”, the Shivalik ranges. Some of the breath-taking adventures that have been included in the camp are white water rafting, trekking, dawn & dusk bush walking, rock climbing, rappelling, cycling, cliff jumping and many more that will be unveiled gradually, with every step. So, whether you are an adventure lover or not, you will be delighted with your experience as life is after all bland without the spice of adventure in it.</p>
+                </div>
+			</div>
+        <div class="clear"></div>
+	</div>
+    <!--/ middle content -->
+
         
 {include file = "callback.tpl"}
 

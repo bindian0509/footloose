@@ -43,9 +43,14 @@
        	  	<div class="text">
             
                 <h2>WHERE WE ARE LOCATED</h2>
+                
+
                 <p>The Footloose Camp sits beautifully in the lap of nature on the bank of river Heul surrounded by “tresses of Shiva”, the Shivalik ranges. These Shivalik ridges offers a picturesque view   from our camp site. Ours is the only camp in the area which offers multilevel and unobstructed view of these majestic mountains in all four directions.</p>
 
                 <p>The lodging and dinning facilities along with toilets are built on an upper hill portion of our camp while the ground level portion caters all sports and leisure activities. Keeping in mind the relaxation of our customers, there are various sitting and relaxing points at both upper and ground level. At our porch, Peacocks & other Himalayan birds can be frequently seen around our camp at dusk & dawn while you are relaxing or sharing your stories with your friends.</p>
+
+                <p>A small jungle trail would take you to the river which is a perfect setting for swimming, relaxing & chillaxing.</p>
+                <p>The natural surrounding around our camp ensures your peace and freedom for which you have come from a far-off distance. And, when you see off from here, you feel rejuvenated and tempted to visit us again.</p>
                 
                 
                 

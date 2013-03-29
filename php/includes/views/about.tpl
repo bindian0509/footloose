@@ -42,10 +42,9 @@
     	<div class="grid_17 suffix_1">
        	  <div class="text">
             <h2>About Us</h2>
-            <p>We envisage a relationship with our customers based on the principle of internalizing an enriching & rejuvenating dream holiday experience.</p>
+            <p>We envisage a relationship with our customers based on the principle of internalizing an enriching & rejuvenating dream holiday experience.In the process, we pay tribute and celebrate the untamable and free human spirit that binds us all.</p>
 
-            <p>In the process, we pay tribute and celebrate the untamable and free human spirit that binds us all.
-            <strong>Footloose Holidays Pvt. Ltd.’s</strong> inception is the story of people like <strong>you and us</strong> trying to satisfy the adventurer, the optimist, the nature lover in us. We at Footloose are committed to provide you with an awe inspiring holiday experience away from the soul sapping and hustle bustle of the way, life has become today. </p>
+            <p><strong>Footloose Holidays Pvt. Ltd.’s</strong> inception is the story of people like <strong>you and us</strong> trying to satisfy the adventurer, the optimist, the nature lover in us. We at Footloose are committed to provide you with an awe inspiring holiday experience away from the soul sapping and hustle bustle of the way, life has become today. </p>
 
             <p>Rishikesh, the “Gateway” to the mighty Himalayan ranges known worldwide as the <strong>rafting and spiritual capital of Incredible India</strong> thus attracting <strong>adventure enthusiasts and yoga lovers</strong> from all over the world, hence becomes the obvious choice for our stepping stone.</p>
 
