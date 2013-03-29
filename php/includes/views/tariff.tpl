@@ -32,7 +32,7 @@
 <div class="container">
 
 	<div class="header-title-image">
-    	<div class="image"><img src="/static/images/header/header_6.jpg" width="708" height="124" alt="" /></div>
+    	<div class="image"><img src="/static/images/header/header_8.jpg" width="708" height="124" alt="" /></div>
     	<h1><span>Get the full </span> pricing details.</h1>
     </div>
     

@@ -1701,3 +1701,7 @@ ul.bordered li {
 #reservationForm p.sending { margin-bottom:0; }
 #reservationForm #sending { padding: 10px 0 10px 300px; }
 #reservationForm p.notice.textconfirm { background:url(../images/ok.jpg) 0 6px no-repeat; }
+
+.widthloc {
+	width: 670px;
+}

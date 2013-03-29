@@ -58,16 +58,71 @@
                     
                 <h2>HOW TO REACH RISHIKESH</h2>
                 	
-                
-              	<div class="col">
-               		<h3 class="title_bg">From New Delhi</h3>
+                <p>Camp footloose is located 5 minutes trekking distance from Shivpuri Bridge.</p>
+                <p>Ur trekking expedition starts right from Shivpuri bridge where you get down if you wish to otherwise vehicles will drop you right at the doorstep of Camp Footloose. Although Bushwalking along the river and jungle strip is highly recommended for your holidays experience. </p>
+              	<div class="col widthloc">
+               		<h3 class="title_bg">By Road:</h3>
+                    <img src="/static/images/reach_by_road_1.jpg" width="670" height="229" alt="" />
 					<ul class="list_dots bordered">
-                   	  	<li>Hire a cab or drive to Rishikesh from New Delhi (245 Kms).</li>
-                    	<li>Take an overnight volvo from Delhi for Rishikesh. Daily Service. Can be booked online from redbus.in</li>
-                    	<li>By Train, the most suitable railway station would be Haridwar. One can easily hire a cab from there till Rishikesh.</li>
-                    	<li>There are Daily flights from New Delhi to Jolly Grant (nearest airport).</li>
+                   	  	<li>New Delhi - Meerut - Muzaffarnagar - Roorkee - Haridwar - Rishikesh(Kailash Gate) - Shivpuri Bridge</li>
+                    	<li>For driving directions till Rishikesh <a href="http://www.mustseeindia.com/driving-directions-from-Delhi-to-Rishikesh/travel-direction"> Click Here </a></li>
+                    	<li>Delhi (Delhi) to Rishikesh (Uttaranchal) is 236 km.</li>
+                    	<li>Time by road is 3 hrs, 50 mins.</li>
                   	</ul>
-                </div>            
+                    <img src="/static/images/reach_by_road_2.jpg" width="670" height="229" alt="" />
+                    
+                </div>      
+                <div class="col widthloc">
+                    <h3 class="title_bg">By Train:</h3>
+                    <ul class="list_dots bordered">
+                        <li>
+                            <p><b>Reach Haridwar by trains at dawn:</b></p>                            
+                            <p>&bull; 14041 Mussoorie Express(can get down at raiwala station, a midpoint between Haridwar & Rishikesh)</p>
+                            <p>Delhi S Rohilla to Haridwar  Departure Time Delhi :21:30  Arrival Time Haridwar 05:50, Arrival time at Raiwala : 06:30 hrs</p>
+                            <p>&bull; 12205 NDLS DDN Ac Express</p>
+                            <p>New Delhi to Haridwar  Departure Time New Delhi :23:55  Arrival Time Haridwar 04:00</p>
+                        </li>
+                        <li>
+                            <p><b>Reach Haridwar by trains in day time:</b></p>                            
+                            <p>&bull; 19105 Haridwar Mail</p>
+                            <p>Delhi S Rohilla to Haridwar  Departure Time Delhi :21:30  Arrival Time Haridwar 05:50, Arrival time at Raiwala : 06:30 hrs</p>
+                            <p>&bull; 12017 Dehradun Shatabdi</p>
+                            <p>New Delhi to Haridwar  Departure Time Delhi :06:50  Arrival Time Haridwar 11:25</p>
+                        </li>
+                        <li>
+                            <p><b>Leave Haridwar for Delhi during day time:</b></p>                            
+                            <p>&bull; 19020 Dehradun Express</p>
+                            <p>Haridwar to Haz. Nizammudin Departure Time Haridwar:12:55  Arrival Time Delhi21:15</p>
+                            <p>&bull; 19016 HW ADI Mail</p>
+                            <p>Haridwar to Delhi Cantt Departure Time Haridwar:15:25  Arrival Time Delhi 23:04</p>
+                        </li>
+                        <li>
+                            <p><b>Leave Haridwar for Delhi at night:</b></p>                            
+                            <p>&bull; 12018 Dehradun Shatabdi</p>
+                            <p>Haridwar to New Delhi Departure Time Haridwar:18:13  Arrival Time New Delhi 22:45</p>
+                            <p>&bull; 14042 Mussoorie Express</p>
+                            <p>Haridwar to New Delhi Departure Time Haridwar:23:15  Arrival Time New Delhi 09:10</p>
+                        </li>                    
+                    </ul>
+                    <p><a href="http://www.indianrail.gov.in">http://www.indianrail.gov.in</a>
+                </div>
+                <div class="col widthloc">
+                    <h3 class="title_bg">By flights:</h3>
+                    <p>Jolly Grant airport near Dehradun is 18 kms from Rishikesh.</p>
+                    <ul class="list_dots bordered">
+                        <li>Spicejet</li>
+                        <li>Air India</li>
+                        <li>Jet Air</li>
+                        <li>Jet Konnect</li>
+                    </ul>
+                    <p><a href="http://www.makemytrip.com">http://www.makemytrip.com</a>
+                </div>  
+                <div class="col widthloc">
+                    <h3 class="title_bg">By bus:</h3>
+                    <p> Frequent buses are available from Anand Vihar bus terminal till Haridwar.</p>
+                    <img src="/static/images/reach_by_bus.jpg" width="670" height="229" alt="" />
+                    <p><a href="http://www.mustseeindia.com">http://www.mustseeindia.com</a>
+                </div>      
                 <div class="clear"></div>  
                 
                 <div class="divider_thin"></div>           
