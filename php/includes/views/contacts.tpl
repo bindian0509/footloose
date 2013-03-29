@@ -54,7 +54,7 @@
             <div class="contact-form">
 				<h2>Please Fill in the form below</h2>
                             
-                            <form action="" method="post" class="ajax_form" name="contactForm">
+                            <form action="" method="post" class="ajax_form" name="contactForm" id="contactForm">
 
                                 <div class="row field_text alignleft">
                                 	<label>Your name (required):</label><br />
@@ -70,10 +70,10 @@
                                 <div class="row field_select alignleft">
                                 	<label>Category:</label><br />
                                     <select class="select_styled" name="Category" id="contact_select_1">
-                                    	<option value="1">Billing Support</option>
-                                        <option value="2">Pre purchase querstion</option>
-                                        <option value="3">I've lost my tranzaction ID</option>
-                                        <option value="4">Dedicated Support Question</option>
+                                    	<option value="Billing Support">Billing Support</option>
+                                        <option value="Pre purchase Question">Pre purchase Question</option>
+                                        <option value="Lost Transaction ID">I've lost my tranzaction ID</option>
+                                        <option value="Dedicated Support Question">Dedicated Support Question</option>
                                     </select>
                                 </div>
                                 
@@ -95,7 +95,10 @@
                                 
 	                            <div class="row field_submit">
                                 	<span class="reset-link"><a href="#" onclick="document.contactForm.reset();return false">reset all fields</a></span>
-                                	<input value="Send Message" title="Send Message" class="contact-submit submit" id="send"  type="submit" /> 
+                                	<input value="Send Message" title="Send Message" class="contact-submit submit" id="send"  type="submit" />
+                                    <p style="display: none;" class="sending"><img id="sending" src="/static/images/ajax-loader.gif"></p>
+                                    <p style="display: none;" class="notice textconfirm">Thank you for contacting us.<br />We will get back to you as soon as possible.</p>
+                                    <p style="display: none;" class="notice texterror">Due to an unknown error, your form was not submitted.<br /> Please resubmit it or try later.</p> 
 								</div>                               
                             </form>
                         </div>
