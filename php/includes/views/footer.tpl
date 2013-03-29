@@ -24,6 +24,7 @@
                     <li><a href="location.php">Location</a></li>
                     <li><a href="rooms.php">Accomodation</a></li>
                     <li><a href="rates.php">FAQ</a></li>
+                    <li><a href="tariff.php">Tariffs and Itinerary</a></li>
                     <li><a href="reservations.php">Reservations</a></li>
                     <li class="last"><a href="contacts.php">Contact</a></li>
        	  		</ul>

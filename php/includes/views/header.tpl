@@ -20,7 +20,7 @@
                 <li {if $select eq 'location'} class="current-menu-item" {/if} ><a href="location.php">Location</a></li>                
 				<li {if $select eq 'accomodation'} class="current-menu-item" {/if} ><a href="accomodation.php">Accomodation</a></li>
                 <li {if $select eq 'faq'} class="current-menu-item" {/if} ><a href="faq.php">FAQs</a></li>
-                <li {if $select eq 'tarrif'} class="current-menu-item" {/if} ><a href="tariff.php">Tariffs and Itinerary</a></li>
+                <li {if $select eq 'tariff'} class="current-menu-item" {/if} ><a href="tariff.php">Tariffs and Itinerary</a></li>
                 <li {if $select eq 'reservations'} class="current-menu-item" {/if} ><a href="reservations.php">Reservations</a></li>
                 <li {if $select eq 'contacts'} class="current-menu-item" {/if} ><a href="contacts.php">Contact</a></li>
        	  </ul>
