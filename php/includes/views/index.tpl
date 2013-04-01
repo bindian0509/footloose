@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Index | Footloose Holidays Pvt. Ltd.</title>
-<meta name="author" content="ThemeFuse" />
-<meta name="description" content="A short description of your company" />
-<meta name="keywords" content="Some keywords that best describes your businee" />
+<title>Home | Footloose Holidays Pvt. Ltd.</title>
+<meta name="footloose" content="footloose holidays" />
+<meta name="description" content="A company dedicated for river rafting and similar activities" />
+<meta name="keywords" content="holidays honeymoon river rafting zipline rishikesh ganga indian culture tourism tourist spot fun uttaranchal india shivpuri holidays" />
 
 <link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
 <script type="text/javascript" src="/static/js/jquery.min.js"></script>

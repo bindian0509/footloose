@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Contacts | Footloose Holidays Pvt. Ltd.</title>
-<meta name="author" content="ThemeFuse" />
-<meta name="description" content="A short description of your company" />
-<meta name="keywords" content="Some keywords that best describes your businee" />
+<meta name="footloose" content="footloose holidays" />
+<meta name="description" content="A company dedicated for river rafting and similar activities" />
+<meta name="keywords" content="holidays honeymoon river rafting zipline rishikesh ganga indian culture tourism tourist spot fun uttaranchal india shivpuri holidays" />
 
 <link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
 <script type="text/javascript" src="/static/js/jquery.min.js"></script>
@@ -122,9 +122,11 @@
                 
 					<div class="contact-address">
 						<div class="address">359, Asha Pushp Vihar, <br /> Sector-14, Kaushambi, <br /> Ghaziabad, UP, India</div><br />
-						<div class="phone">Phone: +91 - 9990 453 017</div>
+						<div class="phone">Phone: +91 - 8585 911 349</div>
+                        <div class="phone">Phone: +91 - 9411 970 497</div>
                         <div class="phone">Phone: +91 - 9958 789 496</div>
-                        <div class="phone">Phone: +91 - 8308 824 175</div>						
+                        <div class="phone">Phone: +91 - 8527 769 379</div>
+                        <div class="phone">Phone: +91 - 9410 132 181</div>						
 					</div>
                     
                     <div class="contact-maillist">
