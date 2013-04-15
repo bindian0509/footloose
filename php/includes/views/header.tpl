@@ -1,11 +1,15 @@
 <div class="head">
 <div class="container">
 
-	<div class="logo"><a href="index.php"><img src="/static/images/logo.png" alt="" width="220" height="93" border="0" /></a></div>
+	<div class="logo">
+        <a href="index.php">
+            <img src="/static/images/logo.png" alt="" width="220" height="93" border="0" />
+        </a>
+   </div>
     
     <div class="head_right">
-    	<div class="icon-top icon-phone">Call us directly: <span> +91-8585911349 / 9411970497 / 9958789496 / 8527769379 / 9410132181</span></div>
-        <div class="icon-top icon-map">359, Asha Pushp Vihar, Sector-14 Kaushambi, Ghaziabad (U.P.) <a href="https://maps.google.com/maps/place?q=Sector+14,+Kaushambi,+Ghaziabad,+Uttar+Pradesh,+India" target="_blank"><span>View on Map</span></a></div>
+    	<div class="icon-top icon-phone">Call us directly: <span> +91-7599211446 / 9411970497 / 9958789496 / 8527769379 / 9410132181   </span></div>
+        <div class="icon-top icon-map">A-501, Jaipuria Sunrise Green, Indirapuram, Ghaziabad (U.P.)<a href="https://maps.google.co.in/maps?q=Jaipuria+Sunrise+Green+Apartments" target="_blank"><span>View on Map</span></a></div>
     </div>
 </div>
 </div>

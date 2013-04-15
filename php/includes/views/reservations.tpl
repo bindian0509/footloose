@@ -91,7 +91,7 @@ $(function(){
                         <div class="row field_select">
 							<label>Choose Residential Tent:</label><br />
                             <select class="select_styled" name="reserv_type" id="reserv_type">
-                                <option value="10 x 12 Residential Tent">10' x 12' Tent</option>
+                                <option value="10 x 10 Residential Tent">10' x 10' Tent</option>
                                 <option value="10 x 12 Residential Tent">12' x 12' Tent</option>
                             </select>
 						</div>

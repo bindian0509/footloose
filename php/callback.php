@@ -20,7 +20,7 @@ if ($_POST['submit'] == "Submit")
 	/* Form Input Data */
 	$phone = $_POST['callbackphone'];
     /* lead redirection email */
-    $to = "bindian0509@gmail.com, kuldepz@gmail.com";
+    $to = "bindian0509@gmail.com, footlooseholidays@gmail.com";
     // test account
     //$to = "bindian0509@gmail.com";
     $email_from = 'no-reply@footloose.com';

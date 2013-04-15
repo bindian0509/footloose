@@ -59,7 +59,8 @@
                 <h2>HOW TO REACH RISHIKESH</h2>
                 	
                 <p>Camp footloose is located 5 minutes trekking distance from Shivpuri Bridge.</p>
-                <p>Ur trekking expedition starts right from Shivpuri bridge where you get down if you wish to otherwise vehicles will drop you right at the doorstep of Camp Footloose. Although Bushwalking along the river and jungle strip is highly recommended for your holidays experience. </p>
+                <p>Your trekking expedition starts right from Shivpuri bridge where you can take a drop if you wish otherwise vehicles will drop you right at the doorstep of Camp Footloose. Although Bushwalking along the river and jungle strip is highly recommended for your holiday’s experience. We also provide home to home pick and drop service at reasonable rates</p>
+
               	<div class="col widthloc">
                		<h3 class="title_bg">By Road:</h3>
                     <img src="/static/images/reach_by_road_1.jpg" width="670" height="229" alt="" />

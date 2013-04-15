@@ -70,9 +70,9 @@
                                 <div class="row field_select alignleft">
                                 	<label>Category:</label><br />
                                     <select class="select_styled" name="Category" id="contact_select_1">
-                                    	<option value="Billing Support">Billing Support</option>
+                                    	<option value="Booking Support">Booking Support</option>
                                         <option value="Pre purchase Question">Pre purchase Question</option>
-                                        <option value="Lost Transaction ID">I've lost my tranzaction ID</option>
+                                        <option value="Pricing and Discounts">Pricing and Discounts </option>
                                         <option value="Dedicated Support Question">Dedicated Support Question</option>
                                     </select>
                                 </div>
@@ -112,7 +112,7 @@
             	<div class="inner">
             		<h3 class="bordered"><span>Easily </span> FIND US ON:</h3>
                 		<div class="social-box">
-							<div class="row social-mail"><a href="mailto:kuldepz@gmail.com">kuldepz@gmail.com</a></div>						
+							<div class="row social-mail"><a href="mailto:footlooseholidays@gmail.com">footlooseholidays@gmail.com</a></div>						
                         </div>
 				</div>                        
 			</div>
@@ -121,8 +121,8 @@
 				<h3><span>Contact us</span> DIRECTLY:</h3>
                 
 					<div class="contact-address">
-						<div class="address">359, Asha Pushp Vihar, <br /> Sector-14, Kaushambi, <br /> Ghaziabad, UP, India</div><br />
-						<div class="phone">Phone: +91 - 8585 911 349</div>
+						<div class="address">A-501, Jaipuria Sunrise Green, <br /> Indirapuram, <br /> Ghaziabad, UP, India</div><br />
+						<div class="phone">Phone: +91 - 7599 211 446</div>
                         <div class="phone">Phone: +91 - 9411 970 497</div>
                         <div class="phone">Phone: +91 - 9958 789 496</div>
                         <div class="phone">Phone: +91 - 8527 769 379</div>
@@ -130,7 +130,7 @@
 					</div>
                     
                     <div class="contact-maillist">
-                        <div class="contact-mail"><a href="mailto:kuldepz@gmail.com">kuldepz@gmail.com</a></div>                
+                        <div class="contact-mail"><a href="mailto:footlooseholidays@gmail.com">footlooseholidays@gmail.com</a></div>                
 					</div>
 			</div>
         </div>

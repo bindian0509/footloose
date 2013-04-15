@@ -31,7 +31,7 @@ if ($_POST['ajax'] == "true")
   //print_r($contactUSarr);
 	   //$to = "bindian0509@gmail.com";
     //test account
-    $to = "kuldepz@gmail.com, bindian0509@gmail.com";
+    $to = "footlooseholidays@gmail.com, bindian0509@gmail.com";
     $email_from = 'no-reply@footloose.com';
     $email_subject = "Contact Us Leads from Footloose.com";
     $email_body = "Contact Us details are as follows - \n\n".

@@ -9,9 +9,9 @@
         <div class="grid_8">
         	<div class="address">
                 <p>Footloose Holidays Pvt. Ltd.,<br />
-                359, Asha Pushp Vihar, Sector-14 Kaushambi, Ghaziabad (U.P.) <br />
-                Phone: +91-9990453017 / 8308824175 / 9958789496 <br />
-                Email: <a href="mailto:kuldepz@gmail.com">kuldepz@gmail.com</a></p>
+                A-501, Jaipuria Sunrise Green, Indirapuram, Ghaziabad (U.P.) <br />
+                Phone: +91-7599211446 / 9411970497 / 9958789496 / 8527769379 / 9410132181 <br />
+                Email: <a href="mailto:footlooseholidays@gmail.com">footlooseholidays@gmail.com</a></p>
         	</div>
         </div>
         

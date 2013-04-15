@@ -62,22 +62,21 @@
                 	<h2><a href="#">ACCOMODATION</a></h2>                    
                 		
                         <strong><p>Residential Tents :</p></strong>
-                        <p>We have 15 canvas tents of which 12 are with area of 10’ by 12’ and three are  with area of 12' by 12 ' and with a canopy in front, to enjoy the awe-inspiring view of nature. All the tents are provided with twin beds with crisp linen, two easy chairs in front and inside furnishings like a bedside table. The tents are pitched in a well spread out area.</p>
-                        <p>Toilets at the camp are in a central compound. There are 3 western  Running Water Toilets and 3 Bathrooms along with one combined toilet-bathroom all with running water. More Toilet & Bathrooms can be pitched (dry pit only) for bigger groups in case of advance notification. All toilets have paper/tissue roll, & dustbin.</p>
+                        <p>We have 15 canvas tents out of which 12 are with area of 10’ by 10’ and 3 are with area of 12' by 12 ' with a canopy in front to enjoy the awe-inspiring view of nature</p>
+                        <p>There are 3 western Toilets and 3 Bathrooms along with one combined toilet-bathroom all with running water. More Toilets & Bathrooms can be pitched (dry pit only) for bigger groups in case of advance notification. All toilets have paper/tissue roll & dustbin.</p>
 
                         <strong><p>Camp Facilities :</p></strong>
 <dl>
 <dt></dt>
 <dd> - Large dining area with food served in buffet style.</dd>
-<dd> - Our camp has proper installation of electricity with power back up. Inside tents, electric fans are there.</dd>
+<dd> - Our camp has proper installation of electricity with power back up.</dd>
 <dd> - We totally value saving power, minimal use of power is also  in tandem with the natural surroundings esp during night when the sky is starlit.</dd>
 <dd> - Neat and hygienic Indian / Western toilets with flush and running water.</dd>
-<dd> - Hot/Cold Water.</dd>
 <dd> - Yoga & Meditation, On demand.</dd>
 <dd> - Mineral water.</dd>
-<dd> - Access to uncountable hiking trails.</dd>
+<dd> - Access to various hiking trails.</dd>
 <dd> - Novels, indoor games, guitar.</dd>
-<dd> - First Aid Kit and Doctor on call.</dd>
+<dd> - First Aid Kit and access to nearby hospitals in case of emergency.</dd>
 <dd> - Round the clock Security.</dd>
 <dd> - Parking.</dd>
 </dl>
