@@ -9,7 +9,6 @@
         <div class="grid_8">
         	<div class="address">
                 <p>Footloose Holidays Pvt. Ltd.,<br />
-                Booking Address : A-501, Jaipuria Sunrise Green, Indirapuram, Ghaziabad (U.P.) <br />
                 Camp Location : Footloose Camps, Near Shivpuri Bridge, Rishikesh.<br />
                 Phone: +91-7599211446 / 9411970497 / 9958789496 / 8527769379 / 9410132181 <br />
                 Email: <a href="mailto:footlooseholidays@gmail.com">footlooseholidays@gmail.com</a></p>
