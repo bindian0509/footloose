@@ -9,7 +9,8 @@
     
     <div class="head_right">
     	<div class="icon-top icon-phone">Call us directly: <span> +91-7599211446 / 9411970497 / 9958789496 / 8527769379 / 9410132181   </span></div>
-        <div class="icon-top icon-map">A-501, Jaipuria Sunrise Green, Indirapuram, Ghaziabad (U.P.)<a href="https://maps.google.co.in/maps?q=Jaipuria+Sunrise+Green+Apartments" target="_blank"><span>View on Map</span></a></div>
+        <div class="icon-top icon-map">Booking Address : A-501, Jaipuria Sunrise Green, Indirapuram, Ghaziabad (U.P.)<a href="https://maps.google.co.in/maps?q=Jaipuria+Sunrise+Green+Apartments" target="_blank"><span>View on Map</span></a></div>
+        <div class="icon-top icon-map">Camp Location : Footloose Camps, Near Shivpuri Bridge, Rishikesh.<a href="https://maps.google.co.in/maps?ie=UTF8&cid=3459017642887063040&q=Camp+Footloose&iwloc=A&gl=IN&hl=en" target="_blank"><span>View on Map</span></a></div>
     </div>
 </div>
 </div>
