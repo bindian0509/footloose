@@ -3,7 +3,7 @@
 
 	<div class="logo">
         <a href="index.php">
-            <img src="/static/images/logo.gif" alt="" width="220" height="93" border="0" />
+            <img src="/static/images/logo.png" alt="" width="220" height="93" border="0" />
         </a>
    </div>
     
